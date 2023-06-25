@@ -32,4 +32,23 @@ driver.implicitly_wait(3) # seconds
 
 driver.switch_to.frame("bvmf_iframe")
 
+driver.find_element(By.CLASS_NAME , 'primary-text').find_element(By.TAG_NAME,"a").click() 
+# #XPATH,'//*[@id="divContainerIframeB3"]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[2]/p/a').click()
+
+# driver.close()
+
+url='https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm'
+
+sleep(2)
+
+driver.get(url)
+
+sleep(2)
+
+# driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
+
+# driver.implicitly_wait(3) # seconds
+
+driver.switch_to.frame("bvmf_iframe")
+
 driver.find_element(By.XPATH,'//*[@id="divContainerIframeB3"]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[2]/p/a').click()
