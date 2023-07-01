@@ -32,15 +32,14 @@ sleep(20)
 
 anuncio = driver.find_elements(By.CLASS_NAME,'btn-close')[0]
 #print(anuncio)
-
 anuncio.click()
 sleep(3)
 
 download = driver.find_element(By.XPATH,path2)
 download.click()
 
-driver.close()
-driver=webdriver.Chrome(service=servico, options=opts)
+# driver.close()
+# driver=webdriver.Chrome(service=servico, options=opts)
 
 driver.get(url2)
 
@@ -51,19 +50,18 @@ path2='//div/a[contains(@class,"btn-download")]'
 
 botao = driver.find_element(By.XPATH,path)
 botao.click()
-sleep(20)
+sleep(5)
 
-anuncio = driver.find_elements(By.CLASS_NAME,'btn-close')[0]
-# #print(anuncio)
-
-anuncio.click()
-sleep(3)
+# anuncio = driver.find_elements(By.CLASS_NAME,'btn-close')[0]
+# # #print(anuncio)
+# anuncio.click()
+# sleep(3)
 
 download = driver.find_element(By.XPATH,path2)
 download.click()
 
-driver.close()
-driver=webdriver.Chrome(service=servico, options=opts)
+# driver.close()
+# driver=webdriver.Chrome(service=servico, options=opts)
 
 driver.get(url3)
 
@@ -74,27 +72,28 @@ path2='//div/a[contains(@class,"btn-download")]'
 
 botao = driver.find_element(By.XPATH,path)
 botao.click()
-sleep(20)
+sleep(5)
 
-anuncio = driver.find_elements(By.CLASS_NAME,'btn-close')[0]
-# #print(anuncio)
-
-anuncio.click()
-sleep(3)
+# anuncio = driver.find_elements(By.CLASS_NAME,'btn-close')[0]
+# # #print(anuncio)
+# anuncio.click()
+# sleep(3)
 
 download = driver.find_element(By.XPATH,path2)
 download.click()
 
-rm = input('remover arquivos (s/n)?')
-if rm =='s':
-    import os
-    try:
-        os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada.csv')
-    except: print('não há arquivo')
-    try:
-        os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada (1).csv')
-    except: print('não há arquivo')
+# rm = input('remover arquivos (s/n)?')
+# if rm =='s':
+#     import os
+#     try:
+#         os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada.csv')
+#     except: print('não há arquivo')
+#     try:
+#         os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada (1).csv')
+#     except: print('não há arquivo')
 
-    try:
-        os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada (2).csv')
-    except: print('não há arquivo')
+#     try:
+#         os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada (2).csv')
+#     except: print('não há arquivo')
+
+print('ok')
