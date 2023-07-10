@@ -33,6 +33,23 @@ for linha in dadosTabela.find_elements(By.TAG_NAME,"tr") :
           linhaDados.append(coluna.text)
      dados.append(linhaDados)
 
+driver.close()
+
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+
+scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
+jfile = 'carteira-328314-d38dcc8ee3e4.json'
+
+credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
+gc = gspread.authorize(credentials)
+
+planilha = gc.open('Dados')
+pagina0 = planilha.get_worksheet(8)
+
+pagina0.update('a1',dados)
+
+
 import pandas as pd
 
 df = pd.DataFrame(dados)
@@ -50,5 +67,9 @@ df.columns = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
 
 # # saving the dataframe 
 df.to_csv("/home/yair/Dropbox/Downloads/FundsExplorer.csv") 
+
+
+
+
 
 
