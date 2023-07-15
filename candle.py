@@ -5,14 +5,20 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
-acoes = ['WEGE3.SA' , 'ITSA4.SA' , 'MGLU3.SA', '^BVSP']
-inicio = '2019-04-29'
-df = yf.download(acoes[3])
-df["Date"]=df.index
+symbol = input('ticker=')+'.SA'
+periodo = '1y'
 
+tickers = yf.Ticker(symbol)
+df = tickers.history(period=periodo)
+#df = yf.download(ticker+'.SA', period = periodo, auto_ajusted=True)
+df["Date"]=df.index
+#
 # calcular a média de 30 dias
+avg_5 = df.Close.rolling(window=9, min_periods=1).mean()
 avg_20 = df.Close.rolling(window=21, min_periods=1).mean()
-avg_60 = df.Close.rolling(window=60, min_periods=1).mean()
+avg_60 = df.Close.rolling(window=72, min_periods=1).mean()
+avg_200 = df.Close.rolling(window=250, min_periods=1).mean()
+
 
 trace1 = {
     'x': df.Date,
@@ -21,7 +27,7 @@ trace1 = {
     'high': df.High,
     'low': df.Low,
     'type': 'candlestick',
-    'name': 'ITSA',
+ #   'name': 'ITSA',
     'showlegend': False
 }
 # média de 20 dias (linha)
@@ -32,9 +38,9 @@ trace2 = {
     'mode': 'lines',
     'line': {
         'width': 1,
-        'color': 'blue'
+        'color': 'orange'
     },
-    'name': 'Média (20 dias)'
+    'name': 'Média (21 dias)'
 }
 trace3 = {
     'x': df.Date,
@@ -45,12 +51,32 @@ trace3 = {
         'width': 1,
         'color': 'red'
     },
-    'name': 'Média (60 dias)'
+    'name': 'Média (72 dias)'
 }
-
-
+trace4 = {
+    'x': df.Date,
+    'y': avg_5,
+    'type': 'scatter',
+    'mode': 'lines',
+    'line': {
+        'width': 1,
+        'color': 'blue'
+    },
+    'name': 'Média (09 dias)'
+}
+trace5 = {
+    'x': df.Date,
+    'y': avg_200,
+    'type': 'scatter',
+    'mode': 'lines',
+    'line': {
+        'width': 1,
+        'color': 'brown'
+    },
+    'name': 'Média (250 dias)'
+}
 # informar todos os dados e gráficos em uma lista
-data = [trace1,trace2,trace3]
+data = [trace4,trace1,trace2,trace3,trace5]
  
 # configurar o layout do gráfico
 layout = go.Layout({
@@ -65,3 +91,4 @@ layout = go.Layout({
 # instanciar objeto Figure e plotar o gráfico
 fig = go.Figure(data=data, layout=layout)
 fig.show()
+

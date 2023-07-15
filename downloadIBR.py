@@ -1,3 +1,6 @@
+#
+# Download de carteiras da B3
+#
 
 from selenium import webdriver
 from time import sleep
@@ -12,7 +15,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 options.add_experimental_option("prefs", {
-  "download.default_directory": r"/home/yair/",
+  "download.default_directory": r"/home/yair/Dropbox/Download/",
   "download.prompt_for_download": False,
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
@@ -21,34 +24,36 @@ options.add_experimental_option("prefs", {
 servico=Service(ChromeDriverManager().install())
 driver=webdriver.Chrome(service=servico, options=options)
 
-url='https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-100-ibrx-100-composicao-da-carteira.htm'
+url=[
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-100-ibrx-100-composicao-da-carteira.htm', #IBR100
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-50-ibrx-50-composicao-da-carteira.htm',#IBR50
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm' #IBOV
+    ]
 
-driver.get(url)
+for sitio in url:
 
-sleep(2)
-driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
+    driver.get(sitio)
 
-driver.implicitly_wait(3) # seconds
+    sleep(2)
+    driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
 
-driver.switch_to.frame("bvmf_iframe")
 
-driver.find_element(By.CLASS_NAME , 'primary-text').find_element(By.TAG_NAME,"a").click() 
-# #XPATH,'//*[@id="divContainerIframeB3"]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[2]/p/a').click()
+    driver.implicitly_wait(3) # seconds
 
-# driver.close()
+    driver.switch_to.frame("bvmf_iframe")
 
-url='https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm'
+    driver.find_element(By.CLASS_NAME , 'primary-text').find_element(By.TAG_NAME,"a").click()
 
-sleep(2)
+    driver.implicitly_wait(2) # seconds
 
-driver.get(url)
 
-sleep(2)
+##XPATH,'//*[@id="divContainerIframeB3"]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[2]/p/a').click()
 
-# driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
-
-# driver.implicitly_wait(3) # seconds
-
-driver.switch_to.frame("bvmf_iframe")
-
-driver.find_element(By.XPATH,'//*[@id="divContainerIframeB3"]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[2]/p/a').click()
+#url='https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm'
+#sleep(2)
+#driver.get(url)
+#sleep(2)
+## driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
+## driver.implicitly_wait(3) # seconds
+#driver.switch_to.frame("bvmf_iframe")
+#driver.find_element(By.XPATH,'//*[@id="divContainerIframeB3"]/div/div[1]/form/div[2]/div/div[2]/div/div/div[1]/div[2]/p/a').click()
