@@ -45,7 +45,7 @@ df = pd.DataFrame(dados,columns=colunas)
 # Primeiro download um csv com os dados
 # depois atualiza planilha no googlesheets
 
-df.to_csv("/home/yair/FundsExplorer.csv")
+df.to_csv("/home/yair/GHub/FundsExplorer.csv")
 
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials

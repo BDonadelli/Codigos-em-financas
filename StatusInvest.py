@@ -12,6 +12,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 opts = ChromeOptions()
 #esta opcao serve para nao fechar o navegador apos a execucao do script
 opts.add_experimental_option("detach", True)
+opts.add_experimental_option("prefs", {
+  "download.default_directory": r"/home/yair/GHub",
+  "download.prompt_for_download": False,
+  "download.directory_upgrade": True,
+  "safebrowsing.enabled": True
+})
+
 servico=Service(ChromeDriverManager().install())
 driver=webdriver.Chrome(service=servico, options=opts)
 
@@ -97,3 +104,4 @@ download.click()
 #     except: print('não há arquivo')
 
 print('ok')
+driver.close()
