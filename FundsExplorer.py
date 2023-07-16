@@ -41,11 +41,10 @@ colunas = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
           'Rentab. Patr. Período','Rentab. Patr. Acumulada','Vacância Física',#
           'Vacância Financeira','Quant. Ativos']		
 df = pd.DataFrame(dados,columns=colunas)
-df.drop([1])
-#df = df.iloc[1: , :] ##1a. linha fica vazia
 
+# Primeiro download um csv com os dados
+# depois atualiza planilha no googlesheets
 
-##print(df)
 df.to_csv("/home/yair/FundsExplorer.csv")
 
 import gspread
