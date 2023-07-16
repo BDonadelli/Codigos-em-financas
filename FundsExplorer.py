@@ -1,17 +1,14 @@
-
-
 from selenium import webdriver
 from time import sleep
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ChromeOptions, Chrome, Keys
-
 #Chrome
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 opts = ChromeOptions()
-#esta opcao serve para nao fechar o navegador apos a execucao do script
+##esta opcao serve para nao fechar o navegador apos a execucao do script
 opts.add_experimental_option("detach", True)
 servico=Service(ChromeDriverManager().install())
 driver=webdriver.Chrome(service=servico, options=opts)
@@ -21,10 +18,14 @@ driver.get("https://www.fundsexplorer.com.br/ranking")
 
 sleep(3)
 
+from datetime import date
+today = date.today()
+
+
 dados = []
 dadosTabela = driver.find_element(By.XPATH,'//div/table[contains(@class,"default-fiis-table__container__table")]')
 
-#print(dadosTabela.text)  
+##print(dadosTabela.text)  
 
 for linha in dadosTabela.find_elements(By.TAG_NAME,"tr") :
      linhaDados = []
@@ -34,21 +35,6 @@ for linha in dadosTabela.find_elements(By.TAG_NAME,"tr") :
      dados.append(linhaDados)
 
 driver.close()
-
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-
-scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
-jfile = 'carteira-328314-d38dcc8ee3e4.json'
-
-credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
-gc = gspread.authorize(credentials)
-
-planilha = gc.open('Dados')
-pagina0 = planilha.get_worksheet(8)
-
-pagina0.update('a1',dados)
-
 
 import pandas as pd
 
@@ -63,13 +49,22 @@ df.columns = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
               'Rentab. Patr. Período','Rentab. Patr. Acumulada','Vacância Física',#
               'Vacância Financeira','Quant. Ativos']		
 
-# print(df)
-
-# # saving the dataframe 
-df.to_csv("/home/yair/Dropbox/Downloads/FundsExplorer.csv") 
+print(df)
+df.to_csv("/home/yair/Dropbox/Downloads/FundsExplorer.csv")
 
 
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
+scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
+jfile = 'carteira-328314-d38dcc8ee3e4.json'
 
+credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
+gc = gspread.authorize(credentials)
 
+planilha = gc.open('Dados')
+pagina = planilha.get_worksheet(8)
+
+pagina.update('a1',today)
+pagina.update('a2',dados)
 
