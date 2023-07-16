@@ -1,0 +1,937 @@
+Data,Dia da Semana,Feriado
+01/01/2001,segunda-feira,Confraternização Universal
+26/02/2001,segunda-feira,Carnaval
+27/02/2001,terça-feira,Carnaval
+13/04/2001,sexta-feira,Paixão de Cristo
+21/04/2001,sábado,Tiradentes
+01/05/2001,terça-feira,Dia do Trabalho
+14/06/2001,quinta-feira,Corpus Christi
+07/09/2001,sexta-feira,Independência do Brasil
+12/10/2001,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2001,sexta-feira,Finados
+15/11/2001,quinta-feira,Proclamação da República
+25/12/2001,terça-feira,Natal
+01/01/2002,terça-feira,Confraternização Universal
+11/02/2002,segunda-feira,Carnaval
+12/02/2002,terça-feira,Carnaval
+29/03/2002,sexta-feira,Paixão de Cristo
+21/04/2002,domingo,Tiradentes
+01/05/2002,quarta-feira,Dia do Trabalho
+30/05/2002,quinta-feira,Corpus Christi
+07/09/2002,sábado,Independência do Brasil
+12/10/2002,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2002,sábado,Finados
+15/11/2002,sexta-feira,Proclamação da República
+25/12/2002,quarta-feira,Natal
+01/01/2003,quarta-feira,Confraternização Universal
+03/03/2003,segunda-feira,Carnaval
+04/03/2003,terça-feira,Carnaval
+18/04/2003,sexta-feira,Paixão de Cristo
+21/04/2003,segunda-feira,Tiradentes
+01/05/2003,quinta-feira,Dia do Trabalho
+19/06/2003,quinta-feira,Corpus Christi
+07/09/2003,domingo,Independência do Brasil
+12/10/2003,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2003,domingo,Finados
+15/11/2003,sábado,Proclamação da República
+25/12/2003,quinta-feira,Natal
+01/01/2004,quinta-feira,Confraternização Universal
+23/02/2004,segunda-feira,Carnaval
+24/02/2004,terça-feira,Carnaval
+09/04/2004,sexta-feira,Paixão de Cristo
+21/04/2004,quarta-feira,Tiradentes
+01/05/2004,sábado,Dia do Trabalho
+10/06/2004,quinta-feira,Corpus Christi
+07/09/2004,terça-feira,Independência do Brasil
+12/10/2004,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2004,terça-feira,Finados
+15/11/2004,segunda-feira,Proclamação da República
+25/12/2004,sábado,Natal
+01/01/2005,sábado,Confraternização Universal
+07/02/2005,segunda-feira,Carnaval
+08/02/2005,terça-feira,Carnaval
+25/03/2005,sexta-feira,Paixão de Cristo
+21/04/2005,quinta-feira,Tiradentes
+01/05/2005,domingo,Dia do Trabalho
+26/05/2005,quinta-feira,Corpus Christi
+07/09/2005,quarta-feira,Independência do Brasil
+12/10/2005,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2005,quarta-feira,Finados
+15/11/2005,terça-feira,Proclamação da República
+25/12/2005,domingo,Natal
+01/01/2006,domingo,Confraternização Universal
+27/02/2006,segunda-feira,Carnaval
+28/02/2006,terça-feira,Carnaval
+14/04/2006,sexta-feira,Paixão de Cristo
+21/04/2006,sexta-feira,Tiradentes
+01/05/2006,segunda-feira,Dia do Trabalho
+15/06/2006,quinta-feira,Corpus Christi
+07/09/2006,quinta-feira,Independência do Brasil
+12/10/2006,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2006,quinta-feira,Finados
+15/11/2006,quarta-feira,Proclamação da República
+25/12/2006,segunda-feira,Natal
+01/01/2007,segunda-feira,Confraternização Universal
+19/02/2007,segunda-feira,Carnaval
+20/02/2007,terça-feira,Carnaval
+06/04/2007,sexta-feira,Paixão de Cristo
+21/04/2007,sábado,Tiradentes
+01/05/2007,terça-feira,Dia do Trabalho
+07/06/2007,quinta-feira,Corpus Christi
+07/09/2007,sexta-feira,Independência do Brasil
+12/10/2007,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2007,sexta-feira,Finados
+15/11/2007,quinta-feira,Proclamação da República
+25/12/2007,terça-feira,Natal
+01/01/2008,terça-feira,Confraternização Universal
+04/02/2008,segunda-feira,Carnaval
+05/02/2008,terça-feira,Carnaval
+21/03/2008,sexta-feira,Paixão de Cristo
+21/04/2008,segunda-feira,Tiradentes
+01/05/2008,quinta-feira,Dia do Trabalho
+22/05/2008,quinta-feira,Corpus Christi
+07/09/2008,domingo,Independência do Brasil
+12/10/2008,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2008,domingo,Finados
+15/11/2008,sábado,Proclamação da República
+25/12/2008,quinta-feira,Natal
+01/01/2009,quinta-feira,Confraternização Universal
+23/02/2009,segunda-feira,Carnaval
+24/02/2009,terça-feira,Carnaval
+10/04/2009,sexta-feira,Paixão de Cristo
+21/04/2009,terça-feira,Tiradentes
+01/05/2009,sexta-feira,Dia do Trabalho
+11/06/2009,quinta-feira,Corpus Christi
+07/09/2009,segunda-feira,Independência do Brasil
+12/10/2009,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2009,segunda-feira,Finados
+15/11/2009,domingo,Proclamação da República
+25/12/2009,sexta-feira,Natal
+01/01/2010,sexta-feira,Confraternização Universal
+15/02/2010,segunda-feira,Carnaval
+16/02/2010,terça-feira,Carnaval
+02/04/2010,sexta-feira,Paixão de Cristo
+21/04/2010,quarta-feira,Tiradentes
+01/05/2010,sábado,Dia do Trabalho
+03/06/2010,quinta-feira,Corpus Christi
+07/09/2010,terça-feira,Independência do Brasil
+12/10/2010,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2010,terça-feira,Finados
+15/11/2010,segunda-feira,Proclamação da República
+25/12/2010,sábado,Natal
+01/01/2011,sábado,Confraternização Universal
+07/03/2011,segunda-feira,Carnaval
+08/03/2011,terça-feira,Carnaval
+21/04/2011,quinta-feira,Paixão de Cristo
+22/04/2011,sexta-feira,Tiradentes
+01/05/2011,domingo,Dia do Trabalho
+23/06/2011,quinta-feira,Corpus Christi
+07/09/2011,quarta-feira,Independência do Brasil
+12/10/2011,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2011,quarta-feira,Finados
+15/11/2011,terça-feira,Proclamação da República
+25/12/2011,domingo,Natal
+01/01/2012,domingo,Confraternização Universal
+20/02/2012,segunda-feira,Carnaval
+21/02/2012,terça-feira,Carnaval
+06/04/2012,sexta-feira,Paixão de Cristo
+21/04/2012,sábado,Tiradentes
+01/05/2012,terça-feira,Dia do Trabalho
+07/06/2012,quinta-feira,Corpus Christi
+07/09/2012,sexta-feira,Independência do Brasil
+12/10/2012,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2012,sexta-feira,Finados
+15/11/2012,quinta-feira,Proclamação da República
+25/12/2012,terça-feira,Natal
+01/01/2013,terça-feira,Confraternização Universal
+11/02/2013,segunda-feira,Carnaval
+12/02/2013,terça-feira,Carnaval
+29/03/2013,sexta-feira,Paixão de Cristo
+21/04/2013,domingo,Tiradentes
+01/05/2013,quarta-feira,Dia do Trabalho
+30/05/2013,quinta-feira,Corpus Christi
+07/09/2013,sábado,Independência do Brasil
+12/10/2013,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2013,sábado,Finados
+15/11/2013,sexta-feira,Proclamação da República
+25/12/2013,quarta-feira,Natal
+01/01/2014,quarta-feira,Confraternização Universal
+03/03/2014,segunda-feira,Carnaval
+04/03/2014,terça-feira,Carnaval
+18/04/2014,sexta-feira,Paixão de Cristo
+21/04/2014,segunda-feira,Tiradentes
+01/05/2014,quinta-feira,Dia do Trabalho
+19/06/2014,quinta-feira,Corpus Christi
+07/09/2014,domingo,Independência do Brasil
+12/10/2014,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2014,domingo,Finados
+15/11/2014,sábado,Proclamação da República
+25/12/2014,quinta-feira,Natal
+01/01/2015,quinta-feira,Confraternização Universal
+16/02/2015,segunda-feira,Carnaval
+17/02/2015,terça-feira,Carnaval
+03/04/2015,sexta-feira,Paixão de Cristo
+21/04/2015,terça-feira,Tiradentes
+01/05/2015,sexta-feira,Dia do Trabalho
+04/06/2015,quinta-feira,Corpus Christi
+07/09/2015,segunda-feira,Independência do Brasil
+12/10/2015,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2015,segunda-feira,Finados
+15/11/2015,domingo,Proclamação da República
+25/12/2015,sexta-feira,Natal
+01/01/2016,sexta-feira,Confraternização Universal
+08/02/2016,segunda-feira,Carnaval
+09/02/2016,terça-feira,Carnaval
+25/03/2016,sexta-feira,Paixão de Cristo
+21/04/2016,quinta-feira,Tiradentes
+01/05/2016,domingo,Dia do Trabalho
+26/05/2016,quinta-feira,Corpus Christi
+07/09/2016,quarta-feira,Independência do Brasil
+12/10/2016,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2016,quarta-feira,Finados
+15/11/2016,terça-feira,Proclamação da República
+25/12/2016,domingo,Natal
+01/01/2017,domingo,Confraternização Universal
+27/02/2017,segunda-feira,Carnaval
+28/02/2017,terça-feira,Carnaval
+14/04/2017,sexta-feira,Paixão de Cristo
+21/04/2017,sexta-feira,Tiradentes
+01/05/2017,segunda-feira,Dia do Trabalho
+15/06/2017,quinta-feira,Corpus Christi
+07/09/2017,quinta-feira,Independência do Brasil
+12/10/2017,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2017,quinta-feira,Finados
+15/11/2017,quarta-feira,Proclamação da República
+25/12/2017,segunda-feira,Natal
+01/01/2018,segunda-feira,Confraternização Universal
+12/02/2018,segunda-feira,Carnaval
+13/02/2018,terça-feira,Carnaval
+30/03/2018,sexta-feira,Paixão de Cristo
+21/04/2018,sábado,Tiradentes
+01/05/2018,terça-feira,Dia do Trabalho
+31/05/2018,quinta-feira,Corpus Christi
+07/09/2018,sexta-feira,Independência do Brasil
+12/10/2018,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2018,sexta-feira,Finados
+15/11/2018,quinta-feira,Proclamação da República
+25/12/2018,terça-feira,Natal
+01/01/2019,terça-feira,Confraternização Universal
+04/03/2019,segunda-feira,Carnaval
+05/03/2019,terça-feira,Carnaval
+19/04/2019,sexta-feira,Paixão de Cristo
+21/04/2019,domingo,Tiradentes
+01/05/2019,quarta-feira,Dia do Trabalho
+20/06/2019,quinta-feira,Corpus Christi
+07/09/2019,sábado,Independência do Brasil
+12/10/2019,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2019,sábado,Finados
+15/11/2019,sexta-feira,Proclamação da República
+25/12/2019,quarta-feira,Natal
+01/01/2020,quarta-feira,Confraternização Universal
+24/02/2020,segunda-feira,Carnaval
+25/02/2020,terça-feira,Carnaval
+10/04/2020,sexta-feira,Paixão de Cristo
+21/04/2020,terça-feira,Tiradentes
+01/05/2020,sexta-feira,Dia do Trabalho
+11/06/2020,quinta-feira,Corpus Christi
+07/09/2020,segunda-feira,Independência do Brasil
+12/10/2020,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2020,segunda-feira,Finados
+15/11/2020,domingo,Proclamação da República
+25/12/2020,sexta-feira,Natal
+01/01/2021,sexta-feira,Confraternização Universal
+15/02/2021,segunda-feira,Carnaval
+16/02/2021,terça-feira,Carnaval
+02/04/2021,sexta-feira,Paixão de Cristo
+21/04/2021,quarta-feira,Tiradentes
+01/05/2021,sábado,Dia do Trabalho
+03/06/2021,quinta-feira,Corpus Christi
+07/09/2021,terça-feira,Independência do Brasil
+12/10/2021,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2021,terça-feira,Finados
+15/11/2021,segunda-feira,Proclamação da República
+25/12/2021,sábado,Natal
+01/01/2022,sábado,Confraternização Universal
+28/02/2022,segunda-feira,Carnaval
+01/03/2022,terça-feira,Carnaval
+15/04/2022,sexta-feira,Paixão de Cristo
+21/04/2022,quinta-feira,Tiradentes
+01/05/2022,domingo,Dia do Trabalho
+16/06/2022,quinta-feira,Corpus Christi
+07/09/2022,quarta-feira,Independência do Brasil
+12/10/2022,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2022,quarta-feira,Finados
+15/11/2022,terça-feira,Proclamação da República
+25/12/2022,domingo,Natal
+01/01/2023,domingo,Confraternização Universal
+20/02/2023,segunda-feira,Carnaval
+21/02/2023,terça-feira,Carnaval
+07/04/2023,sexta-feira,Paixão de Cristo
+21/04/2023,sexta-feira,Tiradentes
+01/05/2023,segunda-feira,Dia do Trabalho
+08/06/2023,quinta-feira,Corpus Christi
+07/09/2023,quinta-feira,Independência do Brasil
+12/10/2023,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2023,quinta-feira,Finados
+15/11/2023,quarta-feira,Proclamação da República
+25/12/2023,segunda-feira,Natal
+01/01/2024,segunda-feira,Confraternização Universal
+12/02/2024,segunda-feira,Carnaval
+13/02/2024,terça-feira,Carnaval
+29/03/2024,sexta-feira,Paixão de Cristo
+21/04/2024,domingo,Tiradentes
+01/05/2024,quarta-feira,Dia do Trabalho
+30/05/2024,quinta-feira,Corpus Christi
+07/09/2024,sábado,Independência do Brasil
+12/10/2024,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2024,sábado,Finados
+15/11/2024,sexta-feira,Proclamação da República
+25/12/2024,quarta-feira,Natal
+01/01/2025,quarta-feira,Confraternização Universal
+03/03/2025,segunda-feira,Carnaval
+04/03/2025,terça-feira,Carnaval
+18/04/2025,sexta-feira,Paixão de Cristo
+21/04/2025,segunda-feira,Tiradentes
+01/05/2025,quinta-feira,Dia do Trabalho
+19/06/2025,quinta-feira,Corpus Christi
+07/09/2025,domingo,Independência do Brasil
+12/10/2025,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2025,domingo,Finados
+15/11/2025,sábado,Proclamação da República
+25/12/2025,quinta-feira,Natal
+01/01/2026,quinta-feira,Confraternização Universal
+16/02/2026,segunda-feira,Carnaval
+17/02/2026,terça-feira,Carnaval
+03/04/2026,sexta-feira,Paixão de Cristo
+21/04/2026,terça-feira,Tiradentes
+01/05/2026,sexta-feira,Dia do Trabalho
+04/06/2026,quinta-feira,Corpus Christi
+07/09/2026,segunda-feira,Independência do Brasil
+12/10/2026,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2026,segunda-feira,Finados
+15/11/2026,domingo,Proclamação da República
+25/12/2026,sexta-feira,Natal
+01/01/2027,sexta-feira,Confraternização Universal
+08/02/2027,segunda-feira,Carnaval
+09/02/2027,terça-feira,Carnaval
+26/03/2027,sexta-feira,Paixão de Cristo
+21/04/2027,quarta-feira,Tiradentes
+01/05/2027,sábado,Dia do Trabalho
+27/05/2027,quinta-feira,Corpus Christi
+07/09/2027,terça-feira,Independência do Brasil
+12/10/2027,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2027,terça-feira,Finados
+15/11/2027,segunda-feira,Proclamação da República
+25/12/2027,sábado,Natal
+01/01/2028,sábado,Confraternização Universal
+28/02/2028,segunda-feira,Carnaval
+29/02/2028,terça-feira,Carnaval
+14/04/2028,sexta-feira,Paixão de Cristo
+21/04/2028,sexta-feira,Tiradentes
+01/05/2028,segunda-feira,Dia do Trabalho
+15/06/2028,quinta-feira,Corpus Christi
+07/09/2028,quinta-feira,Independência do Brasil
+12/10/2028,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2028,quinta-feira,Finados
+15/11/2028,quarta-feira,Proclamação da República
+25/12/2028,segunda-feira,Natal
+01/01/2029,segunda-feira,Confraternização Universal
+12/02/2029,segunda-feira,Carnaval
+13/02/2029,terça-feira,Carnaval
+30/03/2029,sexta-feira,Paixão de Cristo
+21/04/2029,sábado,Tiradentes
+01/05/2029,terça-feira,Dia do Trabalho
+31/05/2029,quinta-feira,Corpus Christi
+07/09/2029,sexta-feira,Independência do Brasil
+12/10/2029,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2029,sexta-feira,Finados
+15/11/2029,quinta-feira,Proclamação da República
+25/12/2029,terça-feira,Natal
+01/01/2030,terça-feira,Confraternização Universal
+04/03/2030,segunda-feira,Carnaval
+05/03/2030,terça-feira,Carnaval
+19/04/2030,sexta-feira,Paixão de Cristo
+21/04/2030,domingo,Tiradentes
+01/05/2030,quarta-feira,Dia do Trabalho
+20/06/2030,quinta-feira,Corpus Christi
+07/09/2030,sábado,Independência do Brasil
+12/10/2030,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2030,sábado,Finados
+15/11/2030,sexta-feira,Proclamação da República
+25/12/2030,quarta-feira,Natal
+01/01/2031,quarta-feira,Confraternização Universal
+24/02/2031,segunda-feira,Carnaval
+25/02/2031,terça-feira,Carnaval
+11/04/2031,sexta-feira,Paixão de Cristo
+21/04/2031,segunda-feira,Tiradentes
+01/05/2031,quinta-feira,Dia do Trabalho
+12/06/2031,quinta-feira,Corpus Christi
+07/09/2031,domingo,Independência do Brasil
+12/10/2031,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2031,domingo,Finados
+15/11/2031,sábado,Proclamação da República
+25/12/2031,quinta-feira,Natal
+01/01/2032,quinta-feira,Confraternização Universal
+09/02/2032,segunda-feira,Carnaval
+10/02/2032,terça-feira,Carnaval
+26/03/2032,sexta-feira,Paixão de Cristo
+21/04/2032,quarta-feira,Tiradentes
+01/05/2032,sábado,Dia do Trabalho
+27/05/2032,quinta-feira,Corpus Christi
+07/09/2032,terça-feira,Independência do Brasil
+12/10/2032,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2032,terça-feira,Finados
+15/11/2032,segunda-feira,Proclamação da República
+25/12/2032,sábado,Natal
+01/01/2033,sábado,Confraternização Universal
+28/02/2033,segunda-feira,Carnaval
+01/03/2033,terça-feira,Carnaval
+15/04/2033,sexta-feira,Paixão de Cristo
+21/04/2033,quinta-feira,Tiradentes
+01/05/2033,domingo,Dia do Trabalho
+16/06/2033,quinta-feira,Corpus Christi
+07/09/2033,quarta-feira,Independência do Brasil
+12/10/2033,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2033,quarta-feira,Finados
+15/11/2033,terça-feira,Proclamação da República
+25/12/2033,domingo,Natal
+01/01/2034,domingo,Confraternização Universal
+20/02/2034,segunda-feira,Carnaval
+21/02/2034,terça-feira,Carnaval
+07/04/2034,sexta-feira,Paixão de Cristo
+21/04/2034,sexta-feira,Tiradentes
+01/05/2034,segunda-feira,Dia do Trabalho
+08/06/2034,quinta-feira,Corpus Christi
+07/09/2034,quinta-feira,Independência do Brasil
+12/10/2034,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2034,quinta-feira,Finados
+15/11/2034,quarta-feira,Proclamação da República
+25/12/2034,segunda-feira,Natal
+01/01/2035,segunda-feira,Confraternização Universal
+05/02/2035,segunda-feira,Carnaval
+06/02/2035,terça-feira,Carnaval
+23/03/2035,sexta-feira,Paixão de Cristo
+21/04/2035,sábado,Tiradentes
+01/05/2035,terça-feira,Dia do Trabalho
+24/05/2035,quinta-feira,Corpus Christi
+07/09/2035,sexta-feira,Independência do Brasil
+12/10/2035,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2035,sexta-feira,Finados
+15/11/2035,quinta-feira,Proclamação da República
+25/12/2035,terça-feira,Natal
+01/01/2036,terça-feira,Confraternização Universal
+25/02/2036,segunda-feira,Carnaval
+26/02/2036,terça-feira,Carnaval
+11/04/2036,sexta-feira,Paixão de Cristo
+21/04/2036,segunda-feira,Tiradentes
+01/05/2036,quinta-feira,Dia do Trabalho
+12/06/2036,quinta-feira,Corpus Christi
+07/09/2036,domingo,Independência do Brasil
+12/10/2036,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2036,domingo,Finados
+15/11/2036,sábado,Proclamação da República
+25/12/2036,quinta-feira,Natal
+01/01/2037,quinta-feira,Confraternização Universal
+16/02/2037,segunda-feira,Carnaval
+17/02/2037,terça-feira,Carnaval
+03/04/2037,sexta-feira,Paixão de Cristo
+21/04/2037,terça-feira,Tiradentes
+01/05/2037,sexta-feira,Dia do Trabalho
+04/06/2037,quinta-feira,Corpus Christi
+07/09/2037,segunda-feira,Independência do Brasil
+12/10/2037,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2037,segunda-feira,Finados
+15/11/2037,domingo,Proclamação da República
+25/12/2037,sexta-feira,Natal
+01/01/2038,sexta-feira,Confraternização Universal
+08/03/2038,segunda-feira,Carnaval
+09/03/2038,terça-feira,Carnaval
+21/04/2038,quarta-feira,Tiradentes
+23/04/2038,sexta-feira,Paixão de Cristo
+01/05/2038,sábado,Dia do Trabalho
+24/06/2038,quinta-feira,Corpus Christi
+07/09/2038,terça-feira,Independência do Brasil
+12/10/2038,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2038,terça-feira,Finados
+15/11/2038,segunda-feira,Proclamação da República
+25/12/2038,sábado,Natal
+01/01/2039,sábado,Confraternização Universal
+21/02/2039,segunda-feira,Carnaval
+22/02/2039,terça-feira,Carnaval
+08/04/2039,sexta-feira,Paixão de Cristo
+21/04/2039,quinta-feira,Tiradentes
+01/05/2039,domingo,Dia do Trabalho
+09/06/2039,quinta-feira,Corpus Christi
+07/09/2039,quarta-feira,Independência do Brasil
+12/10/2039,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2039,quarta-feira,Finados
+15/11/2039,terça-feira,Proclamação da República
+25/12/2039,domingo,Natal
+01/01/2040,domingo,Confraternização Universal
+13/02/2040,segunda-feira,Carnaval
+14/02/2040,terça-feira,Carnaval
+30/03/2040,sexta-feira,Paixão de Cristo
+21/04/2040,sábado,Tiradentes
+01/05/2040,terça-feira,Dia do Trabalho
+31/05/2040,quinta-feira,Corpus Christi
+07/09/2040,sexta-feira,Independência do Brasil
+12/10/2040,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2040,sexta-feira,Finados
+15/11/2040,quinta-feira,Proclamação da República
+25/12/2040,terça-feira,Natal
+01/01/2041,terça-feira,Confraternização Universal
+04/03/2041,segunda-feira,Carnaval
+05/03/2041,terça-feira,Carnaval
+19/04/2041,sexta-feira,Paixão de Cristo
+21/04/2041,domingo,Tiradentes
+01/05/2041,quarta-feira,Dia do Trabalho
+20/06/2041,quinta-feira,Corpus Christi
+07/09/2041,sábado,Independência do Brasil
+12/10/2041,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2041,sábado,Finados
+15/11/2041,sexta-feira,Proclamação da República
+25/12/2041,quarta-feira,Natal
+01/01/2042,quarta-feira,Confraternização Universal
+17/02/2042,segunda-feira,Carnaval
+18/02/2042,terça-feira,Carnaval
+04/04/2042,sexta-feira,Paixão de Cristo
+21/04/2042,segunda-feira,Tiradentes
+01/05/2042,quinta-feira,Dia do Trabalho
+05/06/2042,quinta-feira,Corpus Christi
+07/09/2042,domingo,Independência do Brasil
+12/10/2042,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2042,domingo,Finados
+15/11/2042,sábado,Proclamação da República
+25/12/2042,quinta-feira,Natal
+01/01/2043,quinta-feira,Confraternização Universal
+09/02/2043,segunda-feira,Carnaval
+10/02/2043,terça-feira,Carnaval
+27/03/2043,sexta-feira,Paixão de Cristo
+21/04/2043,terça-feira,Tiradentes
+01/05/2043,sexta-feira,Dia do Trabalho
+28/05/2043,quinta-feira,Corpus Christi
+07/09/2043,segunda-feira,Independência do Brasil
+12/10/2043,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2043,segunda-feira,Finados
+15/11/2043,domingo,Proclamação da República
+25/12/2043,sexta-feira,Natal
+01/01/2044,sexta-feira,Confraternização Universal
+29/02/2044,segunda-feira,Carnaval
+01/03/2044,terça-feira,Carnaval
+15/04/2044,sexta-feira,Paixão de Cristo
+21/04/2044,quinta-feira,Tiradentes
+01/05/2044,domingo,Dia do Trabalho
+16/06/2044,quinta-feira,Corpus Christi
+07/09/2044,quarta-feira,Independência do Brasil
+12/10/2044,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2044,quarta-feira,Finados
+15/11/2044,terça-feira,Proclamação da República
+25/12/2044,domingo,Natal
+01/01/2045,domingo,Confraternização Universal
+20/02/2045,segunda-feira,Carnaval
+21/02/2045,terça-feira,Carnaval
+07/04/2045,sexta-feira,Paixão de Cristo
+21/04/2045,sexta-feira,Tiradentes
+01/05/2045,segunda-feira,Dia do Trabalho
+08/06/2045,quinta-feira,Corpus Christi
+07/09/2045,quinta-feira,Independência do Brasil
+12/10/2045,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2045,quinta-feira,Finados
+15/11/2045,quarta-feira,Proclamação da República
+25/12/2045,segunda-feira,Natal
+01/01/2046,segunda-feira,Confraternização Universal
+05/02/2046,segunda-feira,Carnaval
+06/02/2046,terça-feira,Carnaval
+23/03/2046,sexta-feira,Paixão de Cristo
+21/04/2046,sábado,Tiradentes
+01/05/2046,terça-feira,Dia do Trabalho
+24/05/2046,quinta-feira,Corpus Christi
+07/09/2046,sexta-feira,Independência do Brasil
+12/10/2046,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2046,sexta-feira,Finados
+15/11/2046,quinta-feira,Proclamação da República
+25/12/2046,terça-feira,Natal
+01/01/2047,terça-feira,Confraternização Universal
+25/02/2047,segunda-feira,Carnaval
+26/02/2047,terça-feira,Carnaval
+12/04/2047,sexta-feira,Paixão de Cristo
+21/04/2047,terça-feira,Tiradentes
+01/05/2047,quarta-feira,Dia do Trabalho
+13/06/2047,quinta-feira,Corpus Christi
+07/09/2047,sábado,Independência do Brasil
+12/10/2047,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2047,sábado,Finados
+15/11/2047,sexta-feira,Proclamação da República
+25/12/2047,quarta-feira,Natal
+01/01/2048,quarta-feira,Confraternização Universal
+17/02/2048,segunda-feira,Carnaval
+18/02/2048,terça-feira,Carnaval
+03/04/2048,sexta-feira,Paixão de Cristo
+21/04/2048,terça-feira,Tiradentes
+01/05/2048,sexta-feira,Dia do Trabalho
+04/06/2048,quinta-feira,Corpus Christi
+07/09/2048,segunda-feira,Independência do Brasil
+12/10/2048,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2048,segunda-feira,Finados
+15/11/2048,domingo,Proclamação da República
+25/12/2048,sexta-feira,Natal
+01/01/2049,sexta-feira,Confraternização Universal
+01/03/2049,segunda-feira,Carnaval
+02/03/2049,terça-feira,Carnaval
+16/04/2049,sexta-feira,Paixão de Cristo
+21/04/2049,quarta-feira,Tiradentes
+01/05/2049,sábado,Dia do Trabalho
+17/06/2049,quinta-feira,Corpus Christi
+07/09/2049,terça-feira,Independência do Brasil
+12/10/2049,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2049,terça-feira,Finados
+15/11/2049,segunda-feira,Proclamação da República
+25/12/2049,sábado,Natal
+01/01/2050,sábado,Confraternização Universal
+21/02/2050,segunda-feira,Carnaval
+22/02/2050,terça-feira,Carnaval
+08/04/2050,sexta-feira,Paixão de Cristo
+21/04/2050,quinta-feira,Tiradentes
+01/05/2050,domingo,Dia do Trabalho
+09/06/2050,quinta-feira,Corpus Christi
+07/09/2050,quarta-feira,Independência do Brasil
+12/10/2050,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2050,quarta-feira,Finados
+15/11/2050,terça-feira,Proclamação da República
+25/12/2050,domingo,Natal
+01/01/2051,domingo,Confraternização Universal
+13/02/2051,segunda-feira,Carnaval
+14/02/2051,terça-feira,Carnaval
+31/03/2051,sexta-feira,Paixão de Cristo
+21/04/2051,sexta-feira,Tiradentes
+01/05/2051,segunda-feira,Dia do Trabalho
+01/06/2051,quinta-feira,Corpus Christi
+07/09/2051,quinta-feira,Independência do Brasil
+12/10/2051,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2051,quinta-feira,Finados
+15/11/2051,quarta-feira,Proclamação da República
+25/12/2051,segunda-feira,Natal
+01/01/2052,segunda-feira,Confraternização Universal
+04/03/2052,segunda-feira,Carnaval
+05/03/2052,terça-feira,Carnaval
+19/04/2052,sexta-feira,Paixão de Cristo
+21/04/2052,domingo,Tiradentes
+01/05/2052,quarta-feira,Dia do Trabalho
+20/06/2052,quinta-feira,Corpus Christi
+07/09/2052,sábado,Independência do Brasil
+12/10/2052,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2052,sábado,Finados
+15/11/2052,sexta-feira,Proclamação da República
+25/12/2052,quarta-feira,Natal
+01/01/2053,quarta-feira,Confraternização Universal
+17/02/2053,segunda-feira,Carnaval
+18/02/2053,terça-feira,Carnaval
+04/04/2053,sexta-feira,Paixão de Cristo
+21/04/2053,segunda-feira,Tiradentes
+01/05/2053,quinta-feira,Dia do Trabalho
+05/06/2053,quinta-feira,Corpus Christi
+07/09/2053,domingo,Independência do Brasil
+12/10/2053,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2053,domingo,Finados
+15/11/2053,sábado,Proclamação da República
+25/12/2053,quinta-feira,Natal
+01/01/2054,quinta-feira,Confraternização Universal
+09/02/2054,segunda-feira,Carnaval
+10/02/2054,terça-feira,Carnaval
+27/03/2054,sexta-feira,Paixão de Cristo
+21/04/2054,terça-feira,Tiradentes
+01/05/2054,sexta-feira,Dia do Trabalho
+28/05/2054,quinta-feira,Corpus Christi
+07/09/2054,segunda-feira,Independência do Brasil
+12/10/2054,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2054,segunda-feira,Finados
+15/11/2054,domingo,Proclamação da República
+25/12/2054,sexta-feira,Natal
+01/01/2055,sexta-feira,Confraternização Universal
+01/03/2055,segunda-feira,Carnaval
+02/03/2055,terça-feira,Carnaval
+16/04/2055,sexta-feira,Paixão de Cristo
+21/04/2055,quarta-feira,Tiradentes
+01/05/2055,sábado,Dia do Trabalho
+17/06/2055,quinta-feira,Corpus Christi
+07/09/2055,terça-feira,Independência do Brasil
+12/10/2055,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2055,terça-feira,Finados
+15/11/2055,segunda-feira,Proclamação da República
+25/12/2055,sábado,Natal
+01/01/2056,sábado,Confraternização Universal
+14/02/2056,segunda-feira,Carnaval
+15/02/2056,terça-feira,Carnaval
+31/03/2056,sexta-feira,Paixão de Cristo
+21/04/2056,sexta-feira,Tiradentes
+01/05/2056,segunda-feira,Dia do Trabalho
+01/06/2056,quinta-feira,Corpus Christi
+07/09/2056,quinta-feira,Independência do Brasil
+12/10/2056,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2056,quinta-feira,Finados
+15/11/2056,quarta-feira,Proclamação da República
+25/12/2056,segunda-feira,Natal
+01/01/2057,segunda-feira,Confraternização Universal
+05/03/2057,segunda-feira,Carnaval
+06/03/2057,terça-feira,Carnaval
+20/04/2057,sexta-feira,Paixão de Cristo
+21/04/2057,sábado,Tiradentes
+01/05/2057,terça-feira,Dia do Trabalho
+21/06/2057,quinta-feira,Corpus Christi
+07/09/2057,sexta-feira,Independência do Brasil
+12/10/2057,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2057,sexta-feira,Finados
+15/11/2057,quinta-feira,Proclamação da República
+25/12/2057,terça-feira,Natal
+01/01/2058,terça-feira,Confraternização Universal
+25/02/2058,segunda-feira,Carnaval
+26/02/2058,terça-feira,Carnaval
+12/04/2058,sexta-feira,Paixão de Cristo
+21/04/2058,domingo,Tiradentes
+01/05/2058,quarta-feira,Dia do Trabalho
+13/06/2058,quinta-feira,Corpus Christi
+07/09/2058,sábado,Independência do Brasil
+12/10/2058,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2058,sábado,Finados
+15/11/2058,sexta-feira,Proclamação da República
+25/12/2058,quarta-feira,Natal
+01/01/2059,quarta-feira,Confraternização Universal
+10/02/2059,segunda-feira,Carnaval
+11/02/2059,terça-feira,Carnaval
+28/03/2059,sexta-feira,Paixão de Cristo
+21/04/2059,segunda-feira,Tiradentes
+01/05/2059,quinta-feira,Dia do Trabalho
+29/05/2059,quinta-feira,Corpus Christi
+07/09/2059,domingo,Independência do Brasil
+12/10/2059,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2059,domingo,Finados
+15/11/2059,sábado,Proclamação da República
+25/12/2059,quinta-feira,Natal
+01/01/2060,quinta-feira,Confraternização Universal
+01/03/2060,segunda-feira,Carnaval
+02/03/2060,terça-feira,Carnaval
+16/04/2060,sexta-feira,Paixão de Cristo
+21/04/2060,quarta-feira,Tiradentes
+01/05/2060,sábado,Dia do Trabalho
+17/06/2060,quinta-feira,Corpus Christi
+07/09/2060,terça-feira,Independência do Brasil
+12/10/2060,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2060,terça-feira,Finados
+15/11/2060,segunda-feira,Proclamação da República
+25/12/2060,sábado,Natal
+01/01/2061,sábado,Confraternização Universal
+21/02/2061,segunda-feira,Carnaval
+22/02/2061,terça-feira,Carnaval
+08/04/2061,sexta-feira,Paixão de Cristo
+21/04/2061,quinta-feira,Tiradentes
+01/05/2061,domingo,Dia do Trabalho
+09/06/2061,quinta-feira,Corpus Christi
+07/09/2061,quarta-feira,Independência do Brasil
+12/10/2061,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2061,quarta-feira,Finados
+15/11/2061,terça-feira,Proclamação da República
+25/12/2061,domingo,Natal
+01/01/2062,domingo,Confraternização Universal
+06/02/2062,segunda-feira,Carnaval
+07/02/2062,terça-feira,Carnaval
+24/03/2062,sexta-feira,Paixão de Cristo
+21/04/2062,sexta-feira,Tiradentes
+01/05/2062,segunda-feira,Dia do Trabalho
+25/05/2062,quinta-feira,Corpus Christi
+07/09/2062,quinta-feira,Independência do Brasil
+12/10/2062,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2062,quinta-feira,Finados
+15/11/2062,quarta-feira,Proclamação da República
+25/12/2062,segunda-feira,Natal
+01/01/2063,segunda-feira,Confraternização Universal
+26/02/2063,segunda-feira,Carnaval
+27/02/2063,terça-feira,Carnaval
+13/04/2063,sexta-feira,Paixão de Cristo
+21/04/2063,sábado,Tiradentes
+01/05/2063,terça-feira,Dia do Trabalho
+14/06/2063,quinta-feira,Corpus Christi
+07/09/2063,sexta-feira,Independência do Brasil
+12/10/2063,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2063,sexta-feira,Finados
+15/11/2063,quinta-feira,Proclamação da República
+25/12/2063,terça-feira,Natal
+01/01/2064,terça-feira,Confraternização Universal
+18/02/2064,segunda-feira,Carnaval
+19/02/2064,terça-feira,Carnaval
+04/04/2064,sexta-feira,Paixão de Cristo
+21/04/2064,segunda-feira,Tiradentes
+01/05/2064,quinta-feira,Dia do Trabalho
+05/06/2064,quinta-feira,Corpus Christi
+07/09/2064,domingo,Independência do Brasil
+12/10/2064,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2064,domingo,Finados
+15/11/2064,sábado,Proclamação da República
+25/12/2064,quinta-feira,Natal
+01/01/2065,quinta-feira,Confraternização Universal
+09/02/2065,segunda-feira,Carnaval
+10/02/2065,terça-feira,Carnaval
+27/03/2065,sexta-feira,Paixão de Cristo
+21/04/2065,terça-feira,Tiradentes
+01/05/2065,sexta-feira,Dia do Trabalho
+28/05/2065,quinta-feira,Corpus Christi
+07/09/2065,segunda-feira,Independência do Brasil
+12/10/2065,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2065,segunda-feira,Finados
+15/11/2065,domingo,Proclamação da República
+25/12/2065,sexta-feira,Natal
+01/01/2066,sexta-feira,Confraternização Universal
+22/02/2066,segunda-feira,Carnaval
+23/02/2066,terça-feira,Carnaval
+09/04/2066,sexta-feira,Paixão de Cristo
+21/04/2066,quarta-feira,Tiradentes
+01/05/2066,sábado,Dia do Trabalho
+10/06/2066,quinta-feira,Corpus Christi
+07/09/2066,terça-feira,Independência do Brasil
+12/10/2066,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2066,terça-feira,Finados
+15/11/2066,segunda-feira,Proclamação da República
+25/12/2066,sábado,Natal
+01/01/2067,sábado,Confraternização Universal
+14/02/2067,segunda-feira,Carnaval
+15/02/2067,terça-feira,Carnaval
+01/04/2067,sexta-feira,Paixão de Cristo
+21/04/2067,quinta-feira,Tiradentes
+01/05/2067,domingo,Dia do Trabalho
+02/06/2067,quinta-feira,Corpus Christi
+07/09/2067,quarta-feira,Independência do Brasil
+12/10/2067,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2067,quarta-feira,Finados
+15/11/2067,terça-feira,Proclamação da República
+25/12/2067,domingo,Natal
+01/01/2068,domingo,Confraternização Universal
+05/03/2068,segunda-feira,Carnaval
+06/03/2068,terça-feira,Carnaval
+20/04/2068,sexta-feira,Paixão de Cristo
+21/04/2068,sábado,Tiradentes
+01/05/2068,terça-feira,Dia do Trabalho
+21/06/2068,quinta-feira,Corpus Christi
+07/09/2068,sexta-feira,Independência do Brasil
+12/10/2068,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2068,sexta-feira,Finados
+15/11/2068,quinta-feira,Proclamação da República
+25/12/2068,terça-feira,Natal
+01/01/2069,terça-feira,Confraternização Universal
+25/02/2069,segunda-feira,Carnaval
+26/02/2069,terça-feira,Carnaval
+12/04/2069,sexta-feira,Paixão de Cristo
+21/04/2069,domingo,Tiradentes
+01/05/2069,quarta-feira,Dia do Trabalho
+13/06/2069,quinta-feira,Corpus Christi
+07/09/2069,sábado,Independência do Brasil
+12/10/2069,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2069,sábado,Finados
+15/11/2069,sexta-feira,Proclamação da República
+25/12/2069,quarta-feira,Natal
+01/01/2070,quarta-feira,Confraternização Universal
+10/02/2070,segunda-feira,Carnaval
+11/02/2070,terça-feira,Carnaval
+28/03/2070,sexta-feira,Paixão de Cristo
+21/04/2070,segunda-feira,Tiradentes
+01/05/2070,quinta-feira,Dia do Trabalho
+29/05/2070,quinta-feira,Corpus Christi
+07/09/2070,domingo,Independência do Brasil
+12/10/2070,domingo,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2070,domingo,Finados
+15/11/2070,sábado,Proclamação da República
+25/12/2070,quinta-feira,Natal
+01/01/2071,quinta-feira,Confraternização Universal
+02/03/2071,segunda-feira,Carnaval
+03/03/2071,terça-feira,Carnaval
+17/04/2071,sexta-feira,Paixão de Cristo
+21/04/2071,terça-feira,Tiradentes
+01/05/2071,sexta-feira,Dia do Trabalho
+18/06/2071,quinta-feira,Corpus Christi
+07/09/2071,segunda-feira,Independência do Brasil
+12/10/2071,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2071,segunda-feira,Finados
+15/11/2071,domingo,Proclamação da República
+25/12/2071,sexta-feira,Natal
+01/01/2072,sexta-feira,Confraternização Universal
+22/02/2072,segunda-feira,Carnaval
+23/02/2072,terça-feira,Carnaval
+08/04/2072,sexta-feira,Paixão de Cristo
+21/04/2072,quinta-feira,Tiradentes
+01/05/2072,domingo,Dia do Trabalho
+09/06/2072,quinta-feira,Corpus Christi
+07/09/2072,quarta-feira,Independência do Brasil
+12/10/2072,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2072,quarta-feira,Finados
+15/11/2072,terça-feira,Proclamação da República
+25/12/2072,domingo,Natal
+01/01/2073,domingo,Confraternização Universal
+06/02/2073,segunda-feira,Carnaval
+07/02/2073,terça-feira,Carnaval
+24/03/2073,sexta-feira,Paixão de Cristo
+21/04/2073,sexta-feira,Tiradentes
+01/05/2073,segunda-feira,Dia do Trabalho
+25/05/2073,quinta-feira,Corpus Christi
+07/09/2073,quinta-feira,Independência do Brasil
+12/10/2073,quinta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2073,quinta-feira,Finados
+15/11/2073,quarta-feira,Proclamação da República
+25/12/2073,segunda-feira,Natal
+01/01/2074,segunda-feira,Confraternização Universal
+26/02/2074,segunda-feira,Carnaval
+27/02/2074,terça-feira,Carnaval
+13/04/2074,sexta-feira,Paixão de Cristo
+21/04/2074,sábado,Tiradentes
+01/05/2074,terça-feira,Dia do Trabalho
+14/06/2074,quinta-feira,Corpus Christi
+07/09/2074,sexta-feira,Independência do Brasil
+12/10/2074,sexta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2074,sexta-feira,Finados
+15/11/2074,quinta-feira,Proclamação da República
+25/12/2074,terça-feira,Natal
+01/01/2075,terça-feira,Confraternização Universal
+18/02/2075,segunda-feira,Carnaval
+19/02/2075,terça-feira,Carnaval
+05/04/2075,sexta-feira,Paixão de Cristo
+21/04/2075,domingo,Tiradentes
+01/05/2075,quarta-feira,Dia do Trabalho
+06/06/2075,quinta-feira,Corpus Christi
+07/09/2075,sábado,Independência do Brasil
+12/10/2075,sábado,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2075,sábado,Finados
+15/11/2075,sexta-feira,Proclamação da República
+25/12/2075,quarta-feira,Natal
+01/01/2076,quarta-feira,Confraternização Universal
+02/03/2076,segunda-feira,Carnaval
+03/03/2076,terça-feira,Carnaval
+17/04/2076,sexta-feira,Paixão de Cristo
+21/04/2076,terça-feira,Tiradentes
+01/05/2076,sexta-feira,Dia do Trabalho
+18/06/2076,quinta-feira,Corpus Christi
+07/09/2076,segunda-feira,Independência do Brasil
+12/10/2076,segunda-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2076,segunda-feira,Finados
+15/11/2076,domingo,Proclamação da República
+25/12/2076,sexta-feira,Natal
+01/01/2077,sexta-feira,Confraternização Universal
+22/02/2077,segunda-feira,Carnaval
+23/02/2077,terça-feira,Carnaval
+09/04/2077,sexta-feira,Paixão de Cristo
+21/04/2077,quarta-feira,Tiradentes
+01/05/2077,sábado,Dia do Trabalho
+10/06/2077,quinta-feira,Corpus Christi
+07/09/2077,terça-feira,Independência do Brasil
+12/10/2077,terça-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2077,terça-feira,Finados
+15/11/2077,segunda-feira,Proclamação da República
+25/12/2077,sábado,Natal
+01/01/2078,terça-feira,Confraternização Universal
+14/02/2078,segunda-feira,Carnaval
+15/02/2078,terça-feira,Carnaval
+01/04/2078,sexta-feira,Paixão de Cristo
+21/04/2078,quinta-feira,Tiradentes
+01/05/2078,quarta-feira,Dia do Trabalho
+02/06/2078,quinta-feira,Corpus Christi
+07/09/2078,quarta-feira,Independência do Brasil
+12/10/2078,quarta-feira,Nossa Sr.a Aparecida - Padroeira do Brasil
+02/11/2078,quarta-feira,Finados
+15/11/2078,terça-feira,Proclamação da República
+25/12/2078,quarta-feira,Natal
