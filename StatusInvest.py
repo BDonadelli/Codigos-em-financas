@@ -13,7 +13,7 @@ opts = ChromeOptions()
 #esta opcao serve para nao fechar o navegador apos a execucao do script
 opts.add_experimental_option("detach", True)
 opts.add_experimental_option("prefs", {
-  "download.default_directory": r"/home/yair/GHub",
+  "download.default_directory": r"/home/yair/GHub/Codigos-em-financas/",
   "download.prompt_for_download": False,
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
