@@ -11,5 +11,5 @@ fim = '2022-12-31'
 lista = feriado.Data.loc[inicio:fim].values
 
 
-print( lista)
+print(lista)
 
