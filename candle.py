@@ -6,13 +6,29 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 symbol = input('ticker=')+'.SA'
-periodo = '1y'
+periodo = '3y'
 
 tickers = yf.Ticker(symbol)
 df = tickers.history(period=periodo)
 #df = yf.download(ticker+'.SA', period = periodo, auto_ajusted=True)
 df["Date"]=df.index
-#
+
+# feriados
+
+inicio = df.index[0].strftime("%Y-%m-%d")
+fim = df.index[-1].strftime("%Y-%m-%d")
+
+feriado = pd.read_csv('feriados.csv')
+feriado['Data'] =  pd.to_datetime(feriado['Data'], format='%d/%m/%Y')
+feriado.set_index(feriado.Data, inplace=True)
+feriado['Data'] = feriado['Data'].astype(str)
+
+lista = feriado.Data.loc[inicio:fim].values
+
+# feriados
+
+print(lista)
+
 # calcular a média de 30 dias
 avg_5 = df.Close.rolling(window=9, min_periods=1).mean()
 avg_20 = df.Close.rolling(window=21, min_periods=1).mean()
@@ -69,9 +85,9 @@ fig.update_xaxes(
             # NOTE: Below values are bound (not single values), ie. hide x to y
             dict(bounds=["sat", "mon"]),  # hide weekends, eg. hide sat to before mon
             #dict(bounds=[16, 9.5], pattern="hour"),  # hide hours outside of 9.30am-4pm
-            dict(values=["2018-12-24","2019-12-24", "2020-12-24", "2021-12-24", "2022-12-24"]) ,
-            dict(values=["2018-12-25","2019-12-25", "2020-12-25", "2021-12-24", "2022-12-24"]) ,
-            dict(values=["2018-01-01","2019-01-01", "2020-01-01", "2021-01-01", "2022-01-01"])
+            dict(values=lista)#["2018-12-24","2019-12-24", "2020-12-24", "2021-12-24", "2022-12-24"]) ,
+            #dict(values=["2018-12-25","2019-12-25", "2020-12-25", "2021-12-24", "2022-12-24"]) ,
+            #dict(values=["2018-01-01","2019-01-01", "2020-01-01", "2021-01-01", "2022-01-01"])
         ]
     )
 
