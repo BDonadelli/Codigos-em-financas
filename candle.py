@@ -1,7 +1,8 @@
 import numpy as np
 import pandas as pd
-from pandas_datareader import data as web
+
 import yfinance as yf
+
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 

@@ -1,3 +1,16 @@
+rm = input('remover arquivos (s/n)?')
+if rm =='s':
+    import os
+    try:
+        os.remove('/home/yair/GHub/Codigos-em-financas/statusinvest-busca-avancada.csv')
+    except: print('não há arquivo')
+    try:
+        os.remove('/home/yair/GHub/Codigos-em-financas/statusinvest-busca-avancada (1).csv')
+    except: print('não há arquivo')
+
+    try:
+        os.remove('/home/yair/GHub/Codigos-em-financas/statusinvest-busca-avancada (2).csv')
+    except: print('não há arquivo')
 
 from selenium import webdriver
 from time import sleep
@@ -88,20 +101,6 @@ sleep(5)
 
 download = driver.find_element(By.XPATH,path2)
 download.click()
-
-# rm = input('remover arquivos (s/n)?')
-# if rm =='s':
-#     import os
-#     try:
-#         os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada.csv')
-#     except: print('não há arquivo')
-#     try:
-#         os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada (1).csv')
-#     except: print('não há arquivo')
-
-#     try:
-#         os.remove('/home/yair/Dropbox/Desktop/statusinvest-busca-avancada (2).csv')
-#     except: print('não há arquivo')
 
 print('ok')
 driver.close()
