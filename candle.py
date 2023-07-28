@@ -26,8 +26,6 @@ feriado['Data'] = feriado['Data'].astype(str)
 
 lista = feriado.Data.loc[inicio:fim].values
 
-for i in 
-
 # feriados
 
 print(lista)
