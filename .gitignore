@@ -1,4 +1,5 @@
 *.json
 atualiza*
 OCO.py
-bt-vectorbt.py
+bt-vectorbt*
+Mean-Reverting Trading Strategy*
