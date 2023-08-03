@@ -1,14 +1,14 @@
+import pandas as pd
 from selenium import webdriver
 from time import sleep
-from datetime import date
-today = date.today().strftime('%d/%m/%Y')
-import pandas as pd
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ChromeOptions, Chrome, Keys
 #Chrome
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+
+
 opts = ChromeOptions()
 ##esta opcao serve para nao fechar o navegador apos a execucao do script
 opts.add_experimental_option("detach", True)
@@ -42,10 +42,11 @@ colunas = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
           'Vacância Financeira','Quant. Ativos']		
 df = pd.DataFrame(dados,columns=colunas)
 
-# Primeiro download um csv com os dados
-# depois atualiza planilha no googlesheets
+# Primeiro faz download  de um csv com os dados
 
 df.to_csv("/home/yair/GHub/Codigos-em-financas/FundsExplorer.csv")
+
+# agora atualiza planilha diretamente no googlesheets
 
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -57,9 +58,12 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
 
 planilha = gc.open('Dados')
-pagina = planilha.worksheet("FE")
-pagina.clear()
+pagina = planilha.worksheet("FundsExplorer")
 
+#pagina.clear()
+pagina.update('b4',dados)
+
+# registra data da ultima atualização
+from datetime import date
+today = date.today().strftime('%d/%m/%Y')
 pagina.update('a1',today)
-pagina.update('a2',dados)
-
