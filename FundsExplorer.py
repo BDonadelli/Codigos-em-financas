@@ -1,7 +1,5 @@
 from selenium import webdriver
 from time import sleep
-from datetime import date
-today = date.today().strftime('%d/%m/%Y')
 import pandas as pd
 
 from selenium.webdriver.common.by import By
@@ -56,10 +54,14 @@ jfile = 'carteira-328314-d38dcc8ee3e4.json'
 credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
 
+
 planilha = gc.open('Dados')
-pagina = planilha.worksheet("FE")
+pagina = planilha.worksheet("FundsExplorer")
 pagina.clear()
 
+from datetime import date
+today = date.today().strftime('%d/%m/%Y')
 pagina.update('a1',today)
-pagina.update('a2',dados)
+pagina.update('a2',colunas)
+pagina.update('a3',dados)
 
