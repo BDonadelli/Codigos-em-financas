@@ -1,6 +1,10 @@
 import pandas as pd
 from selenium import webdriver
 from time import sleep
+<<<<<<< HEAD
+=======
+import pandas as pd
+>>>>>>> 84058b1a2adb4e936b40aa9bb610f0f79dcf2408
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ChromeOptions, Chrome, Keys
@@ -57,11 +61,22 @@ jfile = 'carteira-328314-d38dcc8ee3e4.json'
 credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
 
+
 planilha = gc.open('Dados')
 pagina = planilha.worksheet("FundsExplorer")
+<<<<<<< HEAD
 
 #pagina.clear()
 pagina.update('b4',dados)
+=======
+pagina.clear()
+
+from datetime import date
+today = date.today().strftime('%d/%m/%Y')
+pagina.update('a1',today)
+pagina.update('a2',colunas)
+pagina.update('a3',dados)
+>>>>>>> 84058b1a2adb4e936b40aa9bb610f0f79dcf2408
 
 # registra data da ultima atualização
 from datetime import date
