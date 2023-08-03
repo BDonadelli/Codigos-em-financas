@@ -12,7 +12,6 @@ data_json = json.loads(response.read())
 
 nome , pr , pc , tr , tc = [],[],[],[],[]
 td=pd.DataFrame()
-
 for i in range(len(data_json["response"]["TrsrBdTradgList"])):
   nome.append(data_json["response"]["TrsrBdTradgList"][i]['TrsrBd']['nm'])
   pr.append(data_json["response"]["TrsrBdTradgList"][i]['TrsrBd']['untrRedVal'])
@@ -26,7 +25,6 @@ td['preço compra'] = pc
 td['taxa resgate'] = tr
 td['taxa compra'] = tc
 
-td=td.fillna("")
 
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -38,12 +36,11 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
 
 planilha = gc.open('Dados')
-pagina = planilha.worksheet("Tesouro Direto")
+pagina = planilha.worksheet("td")
 
 # #pagina.clear()
-pagina.update('e1',td)
+pagina.update('a2',[td.columns.values.tolist()] + td.values.tolist())
 
-# # registra data da ultima atualização
-# from datetime import date
-# today = date.today().strftime('%d/%m/%Y')
-# pagina.update('h1',today)
+#  registra data da ultima atualização
+from datetime import datetime
+pagina.update('a1',  datetime.now().strftime('%d/%m/%Y - %H:%M'))

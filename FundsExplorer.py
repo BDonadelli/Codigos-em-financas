@@ -1,10 +1,6 @@
 import pandas as pd
 from selenium import webdriver
 from time import sleep
-<<<<<<< HEAD
-=======
-import pandas as pd
->>>>>>> 84058b1a2adb4e936b40aa9bb610f0f79dcf2408
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ChromeOptions, Chrome, Keys
@@ -21,11 +17,20 @@ driver=webdriver.Chrome(service=servico, options=opts)
 
 driver.get("https://www.fundsexplorer.com.br/ranking")
 
+
+colunas = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
+          'P/VP','Último Dividendo','Dividend Yield','DY (3M) Acumulado',#
+          'DY (6M) Acumulado','DY (12M) Acumulado','DY (3M) média','DY (6M) média',#
+          'DY (12M) média','DY Ano','Variação Preço','Rentab. Período','Rentab. Acumulada',#
+          'Patrimônio Líquido','VPA','P/VPA','DY Patrimonial','Variação Patrimonial',#
+          'Rentab. Patr. Período','Rentab. Patr. Acumulada','Vacância Física',#
+          'Vacância Financeira','Quant. Ativos']		
+
 sleep(2)
-dados = []
+dados = [colunas]
 dadosTabela = driver.find_element(By.XPATH,'//div/table[contains(@class,"default-fiis-table__container__table")]')
 
-#print(dadosTabela.text)  
+# print(dadosTabela.text)  
 
 for linha in dadosTabela.find_elements(By.TAG_NAME,"tr") :
      linhaDados = []
@@ -36,21 +41,12 @@ for linha in dadosTabela.find_elements(By.TAG_NAME,"tr") :
 
 driver.close()
 
-
-colunas = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
-          'P/VP','Último Dividendo','Dividend Yield','DY (3M) Acumulado',#
-          'DY (6M) Acumulado','DY (12M) Acumulado','DY (3M) média','DY (6M) média',#
-          'DY (12M) média','DY Ano','Variação Preço','Rentab. Período','Rentab. Acumulada',#
-          'Patrimônio Líquido','VPA','P/VPA','DY Patrimonial','Variação Patrimonial',#
-          'Rentab. Patr. Período','Rentab. Patr. Acumulada','Vacância Física',#
-          'Vacância Financeira','Quant. Ativos']		
-df = pd.DataFrame(dados,columns=colunas)
+df = pd.DataFrame(dados)#,columns=colunas)
 
 # Primeiro faz download  de um csv com os dados
-
 df.to_csv("/home/yair/GHub/Codigos-em-financas/FundsExplorer.csv")
 
-# agora atualiza planilha diretamente no googlesheets
+# # agora atualiza planilha diretamente no googlesheets
 
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -60,25 +56,12 @@ jfile = 'carteira-328314-d38dcc8ee3e4.json'
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
-
-
+1
 planilha = gc.open('Dados')
 pagina = planilha.worksheet("FundsExplorer")
-<<<<<<< HEAD
 
-#pagina.clear()
-pagina.update('b4',dados)
-=======
 pagina.clear()
-
-from datetime import date
-today = date.today().strftime('%d/%m/%Y')
-pagina.update('a1',today)
-pagina.update('a2',colunas)
-pagina.update('a3',dados)
->>>>>>> 84058b1a2adb4e936b40aa9bb610f0f79dcf2408
-
+pagina.update('a2',dados)
 # registra data da ultima atualização
 from datetime import date
-today = date.today().strftime('%d/%m/%Y')
-pagina.update('a1',today)
+pagina.update('a1',date.today().strftime('%d/%m/%Y'))

@@ -1,15 +1,3 @@
-rm = 's'#input('remover arquivos (s/n)?')
-if rm =='s':
-    import os
-    import glob
-    pattern = r"/home/yair/GHub/Codigos-em-financas/statusinvest-busca-avancada*"
-
-    try:
-        for item in glob.iglob(pattern, recursive=True):
-            os.remove(item)
-    except: print('não há arquivo')
-
-
 from selenium import webdriver
 from time import sleep
 
@@ -34,10 +22,6 @@ servico=Service(ChromeDriverManager().install())
 driver=webdriver.Chrome(service=servico, options=opts)
 
 url1='https://statusinvest.com.br/acoes/busca-avancada'
-url2='https://statusinvest.com.br/fundos-imobiliarios/busca-avancada'
-url3='https://statusinvest.com.br/acoes/eua/busca-avancada'
-
-#############
 driver.get(url1)
 sleep(4)
 
@@ -53,7 +37,7 @@ sleep(3)
 driver.find_element(By.XPATH,path2).click()
 
 sleep(15)
-### driver.close()
+driver.close()
 
 import pandas as pd
 
@@ -82,44 +66,3 @@ pagina.update('b2', [df.columns.values.tolist()] + df.values.tolist())
 # # registra data da ultima atualização
 from datetime import date
 pagina.update('a1',date.today().strftime('%d/%m/%Y'))
-
-##############
-
-driver.get(url2)
-sleep(4)
-
-path='//div/button[contains(@class,"find")]'
-path2='//div/a[contains(@class,"btn-download")]'
-
-driver.find_element(By.XPATH,path).click()
-sleep(5)
-# download
-driver.find_element(By.XPATH,path2).click()
-
-sleep(15)
-driver.close()
-
-df2 = pd.read_csv('statusinvest-busca-avancada (1).csv', 
-                 sep=';' , decimal=',' , header = 0, index_col=False ,  thousands='.' , 
-                 encoding='latin1')
-df2 = df2.fillna('')
-
-print(df2.head())
-
-# agora atualiza planilha diretamente no googlesheets
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
-jfile = 'carteira-328314-d38dcc8ee3e4.json'
-credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
-gc = gspread.authorize(credentials)
-
-planilha = gc.open('Dados')
-pagina = planilha.worksheet("StatusInvest-FIIs")
-
-
-pagina.update('b2', [df2.columns.values.tolist()] + df2.values.tolist())
-# # registra data da ultima atualização
-from datetime import date
-pagina.update('a1',date.today().strftime('%d/%m/%Y'))
-
