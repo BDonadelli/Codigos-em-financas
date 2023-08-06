@@ -16,7 +16,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 options.add_experimental_option("prefs", {
-  "download.default_directory": r"/home/yair/",
+  "download.default_directory": r"/home/yair/GHub/Codigos-em-financas/",
   "download.prompt_for_download": False,
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
