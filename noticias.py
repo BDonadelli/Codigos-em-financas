@@ -37,4 +37,4 @@ for url in URLs :
       lista.append(x.text.strip())
 
 noticias = list(set(lista))
-print(noticias)
+print(*noticias,sep='\n')
