@@ -19,21 +19,21 @@ for url in URLs :
   soup = BeautifulSoup(response.text, 'html.parser')
   headlines = soup.find('body').find_all('h3')
   for x in headlines:
-    print(x.text.strip())
+    if busca in x.text.strip(): print(x.text.strip())
 
 url='https://www.infomoney.com.br/'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 headlines = soup.find_all("span", class_="hl-title hl-title-4")
 for x in headlines:
-    print(x.text.strip())
+    if busca in x.text.strip(): print(x.text.strip())
 
 url='https://www.infomoney.com.br/ultimas-noticias/'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 headlines = soup.find_all("span", class_="hl-title hl-title-2")
 for x in headlines:
-    print(x.text.strip())
+    if busca in x.text.strip(): print(x.text.strip())
 
 url='https://valorinveste.globo.com/ultimas-noticias/'
 url='https://valorinveste.globo.com/objetivo/hora-de-investir/'
@@ -42,18 +42,18 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 headlines = soup.find('body').find_all('h2')
 for x in headlines:
-  print(x.text.strip())
+  if busca in x.text.strip(): print(x.text.strip())
 
 url='https://financenews.com.br/category/nao-deixe-de-ler/'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 headlines = soup.find('body').find_all('h3')
 for x in headlines:
-  print(x.text.strip())
+  if busca in x.text.strip(): print(x.text.strip())
 
 url='https://financenews.com.br/'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 headlines = soup.find('body').find_all('h3')
 for x in headlines:
-  print(x.text.strip())
+  if busca in x.text.strip(): print(x.text.strip())
