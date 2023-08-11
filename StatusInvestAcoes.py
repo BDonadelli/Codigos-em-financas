@@ -66,3 +66,4 @@ pagina.update('b2', [df.columns.values.tolist()] + df.values.tolist())
 # # registra data da ultima atualização
 from datetime import date
 pagina.update('a1',date.today().strftime('%d/%m/%Y'))
+

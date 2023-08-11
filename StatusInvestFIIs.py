@@ -48,19 +48,19 @@ df = df.fillna('')
 
 print(df.head())
 
-# agora atualiza planilha diretamente no googlesheets
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
-jfile = 'carteira-328314-d38dcc8ee3e4.json'
-credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
-gc = gspread.authorize(credentials)
+# # agora atualiza planilha diretamente no googlesheets
+# import gspread
+# from oauth2client.service_account import ServiceAccountCredentials
+# scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
+# jfile = 'carteira-328314-d38dcc8ee3e4.json'
+# credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
+# gc = gspread.authorize(credentials)
 
-planilha = gc.open('Dados')
-pagina = planilha.worksheet("StatusInvest-FIIs")
+# planilha = gc.open('Dados')
+# pagina = planilha.worksheet("StatusInvest-FIIs")
 
 
-pagina.update('b2', [df.columns.values.tolist()] + df.values.tolist())
-# # registra data da ultima atualização
-from datetime import date
-pagina.update('a1',date.today().strftime('%d/%m/%Y'))
+# pagina.update('b2', [df.columns.values.tolist()] + df.values.tolist())
+# # # registra data da ultima atualização
+# from datetime import date
+# pagina.update('a1',date.today().strftime('%d/%m/%Y'))
