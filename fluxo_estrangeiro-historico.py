@@ -31,8 +31,6 @@ botao = driver.find_element(By.XPATH,path)
 botao.click()
 
 
-driver.close()
-
 import pandas as pd
 import sys,csv
 import numpy as np
@@ -56,11 +54,11 @@ m=data.reshape( len(x)-1 , 5 )
 df = pd.DataFrame(m, index=ind  , columns=x[0][1:])
 print(df.tail())
 
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 
-fig = go.Figure(go.Bar(
-            x=df.index[::-1] , 
-            y=df.Estrangeiro[::-1] ,
-            orientation='v'))
+# fig = go.Figure(go.Bar(
+#             x=df.index[::-1] , 
+#             y=df.Estrangeiro[::-1] ,
+#             orientation='v'))
 
-fig.show()
+# fig.show()
