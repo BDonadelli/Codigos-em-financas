@@ -7,7 +7,7 @@ from selenium.webdriver import ChromeOptions, Chrome, Keys
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-opts = ChromeOptions()
+opts = webdriver.ChromeOptions()
 #esta opcao serve para nao fechar o navegador apos a execucao do script
 opts.add_experimental_option("detach", True)
 opts.add_experimental_option("prefs", {
@@ -54,11 +54,13 @@ m=data.reshape( len(x)-1 , 5 )
 df = pd.DataFrame(m, index=ind  , columns=x[0][1:])
 print(df.tail())
 
-# import plotly.graph_objects as go
+driver.close()
 
-# fig = go.Figure(go.Bar(
-#             x=df.index[::-1] , 
-#             y=df.Estrangeiro[::-1] ,
-#             orientation='v'))
+import plotly.graph_objects as go
 
-# fig.show()
+fig = go.Figure(go.Bar(
+            x=df.index[::-1] , 
+            y=df.Estrangeiro[::-1] ,
+            orientation='v'))
+
+fig.show()
