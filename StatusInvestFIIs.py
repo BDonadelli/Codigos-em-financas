@@ -32,13 +32,13 @@ sleep(3)
 # clica em buscar
 driver.find_element(By.XPATH,path).click()
 sleep(3)
-# espera um anuncio,
-sleep(16) 
-# fecha o anuncio clicando no "x"
-driver.find_elements(By.CLASS_NAME,'btn-close')[0].click()
-# clica download
+## espera um anuncio,
+#sleep(16) 
+## fecha o anuncio clicando no "x"
+#driver.find_elements(By.CLASS_NAME,'btn-close')[0].click()
+## clica download
 driver.find_element(By.XPATH,path2).click()
 # espera o download
 sleep(15)
 # fecha o navegador
-driver.close()
+driver.quit()
