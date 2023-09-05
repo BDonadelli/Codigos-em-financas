@@ -35,12 +35,12 @@ jfile = 'carteira-328314-d38dcc8ee3e4.json'
 credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
 
-planilha = gc.open('Dados')
-pagina = planilha.worksheet("td")
+planilha = gc.open('Investimentos')
+pagina = planilha.worksheet("Renda Fixa")
 
 # #pagina.clear()
-pagina.update('a2',[td.columns.values.tolist()] + td.values.tolist())
+pagina.update('i73',[td.columns.values.tolist()] + td.values.tolist())
 
 #  registra data da ultima atualização
 from datetime import datetime
-pagina.update('a1',  datetime.now().strftime('%d/%m/%Y - %H:%M'))
+pagina.update('i72',  datetime.now().strftime('%d/%m/%Y - %H:%M'))
