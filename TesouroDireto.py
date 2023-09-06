@@ -38,9 +38,14 @@ gc = gspread.authorize(credentials)
 planilha = gc.open('Investimentos')
 pagina = planilha.worksheet("Renda Fixa")
 
-# #pagina.clear()
-pagina.update('i73',[td.columns.values.tolist()] + td.values.tolist())
 
+linha = int(input('linha da celula inicial (72)'))
+i = 9
+
+from datetime import date
+today = date.today().strftime('%d/%m/%Y')
 #  registra data da ultima atualização
 from datetime import datetime
-pagina.update('i72',  datetime.now().strftime('%d/%m/%Y - %H:%M'))
+pagina.update_cell(linha, i,  today )
+
+pagina.update('i'+str(linha+1),[td.columns.values.tolist()] + td.values.tolist())
