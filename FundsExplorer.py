@@ -67,4 +67,4 @@ pagina = planilha.worksheet("FundsExplorer")
 # pagina.update('a2',dados)
 # registra data da ultima atualização
 from datetime import date
-pagina.update('a1',date.today().strftime('%d/%m/%Y'))
+pagina.update('a1','z')#date.today().strftime('%d/%m/%Y'))
