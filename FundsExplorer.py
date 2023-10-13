@@ -3,6 +3,8 @@ from selenium import webdriver
 from time import sleep
 
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+
 from selenium.webdriver import ChromeOptions, Chrome, Keys
 #Chrome
 from selenium.webdriver.chrome.service import Service
@@ -16,7 +18,13 @@ servico=Service(ChromeDriverManager().install())
 driver=webdriver.Chrome(service=servico, options=opts)
 
 driver.get("https://www.fundsexplorer.com.br/ranking")
-
+# driver.maximize_window()
+sleep(5)
+# Scroll up the window by a specific number of pixels
+# For example, scroll up by 200 pixels
+scroll_distance = 400
+driver.execute_script(f"window.scrollBy(0, {scroll_distance});")
+sleep(2)
 
 colunas = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
           'P/VP','Último Dividendo','Dividend Yield','DY (3M) Acumulado',#
@@ -26,22 +34,13 @@ colunas = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
           'Rentab. Patr. Período','Rentab. Patr. Acumulada','Quant. Ativos' ,'Volatilidade' , #
           'Num. Cotistas' , 'Tax. Gestão' , 'Tax. Performance' , 'Tax. Administração']
 
-
-
-
-sleep(2)
-from selenium.webdriver.support.ui import Select
-identt = "colunas-ranking__select-button"
-select = Select(driver.find_element_by_id(identt))
-# Selecionando pelo valor
-select.select_by_value('todos')
-sleep(2)
+driver.find_element(By.XPATH,'//*[@id="colunas-ranking__select-button"]').click()
+sleep(5)
+driver.find_element(By.XPATH,'/html/body/div[6]/div[1]/div/div[2]/div[2]/ul/li[1]/label/span').click()
+sleep(5)
 
 dados = [colunas]
 dadosTabela = driver.find_element(By.XPATH,'//div/table[contains(@class,"default-fiis-table__container__table")]')
-
-
-
 
 # print(dadosTabela.text)  
 
@@ -71,10 +70,11 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
 
 planilha = gc.open('Dados')
-pagina = planilha.worksheet("FundsExplorer")
+pagina = planilha.worksheet("teste")
 
 pagina.clear()
 pagina.update('a2',dados)
 # registra data da ultima atualização
 from datetime import date
 pagina.update('a1',date.today().strftime('%d/%m/%Y'))
+driver.quit()
