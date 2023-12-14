@@ -42,29 +42,28 @@ driver.close()
 SHEET = input('Atualizarplanilha?(s/n)')
 
 if SHEET == 's' :
-    
+        
         import pandas as pd
-		
-	df = pd.read_csv('statusinvest-busca-avancada.csv', 
+        pd.read_csv('statusinvest-busca-avancada.csv', 
 	                 sep=';' , decimal=',' , header = 0, index_col=False ,  thousands='.' , 
 	                 encoding='latin1')
-	df = df.fillna('')
-	
-	print(df.head())
+		df = df.fillna('')
+        
+		print(df.head())
 		
-	# agora atualiza planilha diretamente no googlesheets
-	import gspread
-	from oauth2client.service_account import ServiceAccountCredentials
-	scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
-	jfile = 'carteira-328314-d38dcc8ee3e4.json'
-	credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
-	gc = gspread.authorize(credentials)
-	
-	planilha = gc.open('Dados')
-	pagina = planilha.worksheet("StatusInvest-Acoes")
+		# agora atualiza planilha diretamente no googlesheets
+		import gspread
+		from oauth2client.service_account import ServiceAccountCredentials
+		scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
+		jfile = 'carteira-328314-d38dcc8ee3e4.json'
+		credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
+		gc = gspread.authorize(credentials)
 		
-	pagina.update('b2', [df.columns.values.tolist()] + df.values.tolist())
-	# # registra data da ultima atualização
-	from datetime import date
-	pagina.update('a1',date.today().strftime('%d/%m/%Y'))
-	
+		planilha = gc.open('Dados')
+		pagina = planilha.worksheet("StatusInvest-Acoes")
+			
+		pagina.update('b2', [df.columns.values.tolist()] + df.values.tolist())
+		# # registra data da ultima atualização
+		from datetime import date
+		pagina.update('a1',date.today().strftime('%d/%m/%Y'))
+		
