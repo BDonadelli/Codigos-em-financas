@@ -36,7 +36,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
-jfile = 'carteira-328314-d38dcc8ee3e4.json'
+jfile = 'destrincha-fatura.json'
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
