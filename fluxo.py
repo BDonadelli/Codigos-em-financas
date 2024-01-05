@@ -1,4 +1,3 @@
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ChromeOptions, Chrome, Keys
@@ -30,39 +29,42 @@ path='//*[@id="download-csv"]'
 botao = driver.find_element(By.XPATH,path)
 botao.click()
 
+sleep(5)
+driver.quit()
 
 import pandas as pd
 import sys,csv
 import numpy as np
 
-filename = 'fluxo-historico.csv'
+filename = 'data/fluxo-estrangeiro.csv'
 with open(filename, "r") as f:
   reader = csv.reader(f, delimiter=',')
   x=list(reader)
 
-a=[]
-ind=[]
-for l in range(1,len(x)):
-  ind.append(x[l][0])
-  i=1
-  while i < 11 :      
-      a.append(x[l][i].replace('.','')+'.'+x[l][i+1][:-3])
-      i=i+2
+cabecalho = x[0]
 
-data = np.array( a,dtype=float )
-m=data.reshape( len(x)-1 , 5 )
-df = pd.DataFrame(m, index=ind  , columns=x[0][1:])
-print(df.tail())
+df = pd.DataFrame( x[1:],  columns=cabecalho)
+print(df.head())
 
-driver.close()
+for col in df.columns:
+  df[col] = df[col].str.replace('.', '').str.replace(',', '.')
+  if col != 'Data' :
+    df[col] = df[col].apply(lambda x :  x[:-3])
+    df[col] = df[col].astype(float)
+
+from datetime import datetime
+df['Data'] = pd.to_datetime(df['Data'] , dayfirst=True)
+df.set_index('Data',inplace=True)
+
+print(df.head())
+print(df.info())
 
 import plotly.graph_objects as go
 
-fig = go.Figure(go.Bar(
-            x=df.index[::-1] , 
-            y=df.Estrangeiro[::-1] ,
-            orientation='v'))
-
+fig = go.Figure(data=[
+  go.Bar(x=df.index, y=df.Estrangeiro,name='Estrangeiro'),
+  go.Bar(x=df.index, y=df.Institucional,name='Institucional'),
+  go.Bar(x=df.index, y=df['Pessoa física'],name='PF')
+])
 fig.show()
 
-driver.quit()
