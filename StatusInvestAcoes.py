@@ -1,3 +1,10 @@
+dir_path = r"/home/yair/GHub/Codigos-em-financas/data/"
+import os 
+try: 
+   os.remove(dir_path + "statusinvest-busca-avancada.csv")
+except: 
+      pass
+
 from selenium import webdriver
 from time import sleep
 
@@ -18,8 +25,7 @@ opts.add_experimental_option("prefs", {
   "safebrowsing.enabled": True
 })
 
-servico=Service(ChromeDriverManager().install())
-driver=webdriver.Chrome(service=servico, options=opts)
+driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
 
 url1='https://statusinvest.com.br/acoes/busca-avancada'
 driver.get(url1)
@@ -36,31 +42,31 @@ sleep(1)
 # download
 driver.find_element(By.XPATH,path2).click()
 
-sleep(10)
+sleep(5)
 driver.close()
 
-SHEET = input('Atualizarplanilha?(s/n)')
-if SHEET == 's' :
-	import pandas as pd
-	df = pd.read_csv("data/statusinvest-busca-avancada.csv", #
-				  sep=';' , decimal=',' , header = 0, index_col=False ,  thousands='.' , #
-				  encoding='latin1')
-	df = df.fillna('')
-	print(df.head())
+# SHEET = input('Atualizarplanilha?(s/n)')
+# if SHEET == 's' :
+# 	import pandas as pd
+# 	df = pd.read_csv("data/statusinvest-busca-avancada.csv", #
+# 				  sep=';' , decimal=',' , header = 0, index_col=False ,  thousands='.' , #
+# 				  encoding='latin1')
+# 	df = df.fillna('')
+# 	print(df.head())
 
-	# agora atualiza planilha diretamente no googlesheets
-	import gspread
-	from oauth2client.service_account import ServiceAccountCredentials
-	scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
+# 	# agora atualiza planilha diretamente no googlesheets
+# 	import gspread
+# 	from oauth2client.service_account import ServiceAccountCredentials
+# 	scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/spreadsheets']
 
-	jfile = 'carteira-328314-d38dcc8ee3e4.json'
-	credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
-	gc = gspread.authorize(credentials)
+# 	jfile = 'carteira-328314-d38dcc8ee3e4.json'
+# 	credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
+# 	gc = gspread.authorize(credentials)
 
-	planilha = gc.open('Dados')
-	pagina = planilha.worksheet("StatusInvest-Acoes")
-	pagina.update('b2', [df.columns.values.tolist()] + df.values.tolist())
-	# # registra data da ultima atualização
-	from datetime import date
-	pagina.update('a1',date.today().strftime('%d/%m/%Y'))
+# 	planilha = gc.open('Dados')
+# 	pagina = planilha.worksheet("StatusInvest-Acoes")
+# 	pagina.update('b2', [df.columns.values.tolist()] + df.values.tolist())
+# 	# # registra data da ultima atualização
+# 	from datetime import date
+# 	pagina.update('a1',date.today().strftime('%d/%m/%Y'))
 		

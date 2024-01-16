@@ -1,4 +1,17 @@
+dir_path = r"/home/yair/GHub/Codigos-em-financas/data"
+
 if str(input('download? (s/n)')) == 's' :
+  
+  ## ja que vai baixar, remove antigos
+  import os 
+  try: 
+    os.remove(dir_path + "acoes-listadas-b3.csv")
+  except: pass
+
+  try: 
+    os.remove(dir_path + "fluxo-estrangeiro.csv")
+  except: pass
+
   from selenium import webdriver
   from selenium.webdriver.common.by import By
   from selenium.webdriver import ChromeOptions, Chrome
@@ -11,7 +24,7 @@ if str(input('download? (s/n)')) == 's' :
   #esta opcao serve para nao fechar o navegador apos a execucao do script
   opts.add_experimental_option("detach", True)
   opts.add_experimental_option("prefs", {
-    "download.default_directory": r"/home/yair/GHub/Codigos-em-financas/data",
+    "download.default_directory": dir_path,
     "download.prompt_for_download": False,
     "download.directory_upgrade": True,
     "safebrowsing.enabled": True
@@ -41,8 +54,8 @@ if str(input('download? (s/n)')) == 's' :
   driver.quit()
 
 ''' 
-daqui pra baixo usa .csv do 
-ultimo download
+daqui pra baixo usa .csv do fluxo do
+ultimo download para grafico
 '''
 
 import pandas as pd
