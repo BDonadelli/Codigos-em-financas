@@ -1,29 +1,29 @@
+wd = r"/home/yair/GHub/Codigos-em-financas/data/"
+
+import os
+for filename in os.listdir(wd):
+    if 'Cart_' in filename:
+        os.remove(wd+filename)
+
 from selenium import webdriver
 from time import sleep
 
 from selenium.webdriver.common.by import By
-from selenium.webdriver import ChromeOptions, Chrome, Keys
-
+from selenium.webdriver import ChromeOptions, Chrome
 #Chrome
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-#opts = ChromeOptions()
-#esta opcao serve para nao fechar o navegador apos a execucao do script
-#options.add_experimental_option("detach", True)
-
-
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 options.add_experimental_option("prefs", {
-  "download.default_directory": r"/home/yair/GHub/Codigos-em-financas/data/",
+  "download.default_directory": wd,
   "download.prompt_for_download": False,
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
 })
 
-servico=Service(ChromeDriverManager().install())
-driver=webdriver.Chrome(service=servico, options=options)
+driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 
 url=[
@@ -45,6 +45,21 @@ for sitio in  url :
     sleep(3)
 
 driver.close()    
+
+'''
+    remanejo dos nomes dos arquivos
+'''
+
+files_dict = {'IBOVDia':'Cart_Ibov',
+'SMLLDia':'Cart_Small',
+'IBXXDia':'Cart_IBr100',
+'IBXLDia':'Cart_IBr50',
+'IDIVDia':'Cart_Idiv'}
+
+for chave in files_dict.keys(): 
+    for filename in os.listdir(wd):
+        if chave in filename:
+            os.rename(wd+filename,wd+files_dict[chave]+'.csv')
 
 
 # driver.get(url[0])
