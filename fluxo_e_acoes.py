@@ -1,7 +1,7 @@
 if str(input('download? (s/n)')) == 's' :
   from selenium import webdriver
   from selenium.webdriver.common.by import By
-  from selenium.webdriver import ChromeOptions, Chrome, Keys
+  from selenium.webdriver import ChromeOptions, Chrome
 
   #Chrome
   from selenium.webdriver.chrome.service import Service
@@ -25,12 +25,19 @@ if str(input('download? (s/n)')) == 's' :
   url='https://www.dadosdemercado.com.br/bolsa/investidores-estrangeiros'
   driver.get(url)
   sleep(2)
-
   path='//*[@id="download-csv"]'
   botao = driver.find_element(By.XPATH,path)
   botao.click()
-
   sleep(5)
+
+  url='https://www.dadosdemercado.com.br/bolsa/acoes'
+  driver.get(url)
+  sleep(2)
+  path='//*[@id="download-csv"]/span'
+  botao = driver.find_element(By.XPATH,path)
+  botao.click()
+  sleep(5)
+
   driver.quit()
 
 ''' 
