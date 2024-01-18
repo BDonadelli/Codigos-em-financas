@@ -1,4 +1,4 @@
-dir_path = r"/home/yair/GHub/Codigos-em-financas/data"
+dir_path = r"/home/yair/GHub/Codigos-em-financas/data/"
 
 if str(input('download? (s/n)')) == 's' :
   
