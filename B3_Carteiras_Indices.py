@@ -25,8 +25,18 @@ options.add_experimental_option("prefs", {
 
 driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
+'''
+Ibov -  85% em ordem decrescente de Índice de Negociabilidade; 
+        95% de presença em pregão; 0,1% do volume financeiro no mercado a vista (lote-padrão); e não ser penny stock.
+IBrx100 -   os 100 primeiros ativos em ordem decrescente de Índice de Negociabilidade; 
+            95% de presença em pregão; e não ser penny stock.
+IBrx50 - os 50 primeiros ativos em ordem decrescente de Índice de Negociabilidade; 
+         95% de presença em pregão; e não ser penny stock.
+IBrA -  99% em ordem decrescente de Índice de Negociabilidade; 95% de presença em pregão; e não ser penny stock.            
+'''
 
 url=[
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-amplo-ibra-composicao-da-carteira.htm',
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-100-ibrx-100-composicao-da-carteira.htm',   #IBR100
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-50-ibrx-50-composicao-da-carteira.htm',     #IBR50
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm',     #IBOV
@@ -47,10 +57,11 @@ for sitio in  url :
 driver.close()    
 
 '''
-    remanejo dos nomes dos arquivos
+    remanejo dos nomes dos arquivos -------------------------------------------
 '''
 
 files_dict = {'IBOVDia':'Cart_Ibov',
+              'IBRADia':'Cart_IBrA',
 'SMLLDia':'Cart_Small',
 'IBXXDia':'Cart_IBr100',
 'IBXLDia':'Cart_IBr50',
