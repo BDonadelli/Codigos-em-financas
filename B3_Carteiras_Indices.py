@@ -9,8 +9,11 @@ from selenium import webdriver
 from time import sleep
 
 from selenium.webdriver.common.by import By
-from selenium.webdriver import ChromeOptions, Chrome
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
 #Chrome
+from selenium.webdriver import ChromeOptions, Chrome
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -46,10 +49,10 @@ url=[
 
 for sitio in  url :
     driver.get(sitio)
-    sleep(3)
     if sitio == url[0] :
-        driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
-        driver.implicitly_wait(3) # seconds
+       driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
+       driver.implicitly_wait(3) # seconds
+    # WebDriverWait(driver, 10).until( EC.frame_to_be_available_and_switch_to_it((By.ID, "bvmf_iframe")))
     driver.switch_to.frame("bvmf_iframe")
     driver.find_element(By.CLASS_NAME , 'primary-text').find_element(By.TAG_NAME,"a").click()
     sleep(3)

@@ -82,8 +82,8 @@ from datetime import datetime
 df['Data'] = pd.to_datetime(df['Data'] , dayfirst=True)
 df.set_index('Data',inplace=True)
 
-print( 'inicio',df.index[0].date() )
-print( 'fim', df.index[-1].date())
+print( 'inicio',df.index[-1].date() )
+print( 'fim', df.index[0].date())
 
 
 termino = df.index[0].date()
