@@ -65,10 +65,10 @@ driver.close()
 
 files_dict = {'IBOVDia':'Cart_Ibov',
               'IBRADia':'Cart_IBrA',
-'SMLLDia':'Cart_Small',
-'IBXXDia':'Cart_IBr100',
-'IBXLDia':'Cart_IBr50',
-'IDIVDia':'Cart_Idiv'}
+              'SMLLDia':'Cart_Small',
+              'IBXXDia':'Cart_IBr100',
+              'IBXLDia':'Cart_IBr50',
+              'IDIVDia':'Cart_Idiv'}
 
 for chave in files_dict.keys(): 
     for filename in os.listdir(wd):
