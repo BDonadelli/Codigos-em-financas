@@ -159,7 +159,7 @@ Construção Civil,EZTEC       ,EZTC
 Construção Civil,FICA,FIEI
 Construção Civil,GAFISA      ,GFSA
 Construção Civil,HELBOR      ,HBOR
-Construção Civil,INTER SA ,INNT
+Construção Civil,INC AS,INNC
 Construção Civil,JHSF PART   ,JHSF
 Construção Civil,JOAO FORTES ,JFEN
 Construção Civil,KALLAS,KLAS
@@ -274,7 +274,7 @@ Programas e Serviços,BRQ,BRQB
 Programas e Serviços,ENJOEI,ENJU
 Programas e Serviços,GETNINJAS,NINJ
 Programas e Serviços,INFRACOMM,IFCM
-Programas e Serviços,LOCAWEB,LWSA
+Programas e Serviços,LWSA,LWSA
 Programas e Serviços,MELIUZ,CASH
 Programas e Serviços,NEOGRID,NGRD
 Programas e Serviços,PADTEC,PDTC
@@ -303,7 +303,6 @@ Energia Elétrica,AUREN,AURE
 Energia Elétrica,CACHOEIRA,CPTE
 Energia Elétrica,CEB         ,CEBR
 Energia Elétrica,CEEE-D      ,CEED
-Energia Elétrica,CEEE-G,CGEE
 Energia Elétrica,CELESC      ,CLSC
 Energia Elétrica,CELGPAR     ,GPAR
 Energia Elétrica,CEMIG       ,CMIG
@@ -335,7 +334,7 @@ Energia Elétrica,GER PARANAP ,GEPA
 Energia Elétrica,LIGHT       ,LIGH
 Energia Elétrica,LIGHT S/A   ,LIGT
 Energia Elétrica,NEOENERGIA  ,NEOE
-Energia Elétrica,OMEGAENERGIA,MEGA
+Energia Elétrica,SERENA,SRNA
 Energia Elétrica,PAUL F LUZ  ,PALF
 Energia Elétrica,PROMAN      ,PRMN
 Energia Elétrica,REDE ENERGIA,REDE
@@ -406,7 +405,6 @@ Previdência e Seguros,ALFA CONSORC,BRGE
 Previdência e Seguros,BBSEGURIDADE,BBSE
 Previdência e Seguros,CAIXA SEGURI,CXSE
 Previdência e Seguros,PORTO SEGURO,PSSA
-Previdência e Seguros,SEG AL BAHIA,CSAB
 Previdência e Seguros,IRBBRASIL RE,IRBR
 Previdência e Seguros,ALPER S.A.,APER
 Previdência e Seguros,WIZ CO,WIZC
