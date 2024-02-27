@@ -2,22 +2,24 @@ import pandas as pd
 #import datetime as dt
 from datetime import datetime
 
-url='https://raw.githubusercontent.com/BDonadelli/Codigos-em-financas/main/data/feriados.csv'
-feriado = pd.read_csv(url)
-feriado['Data'] =  pd.to_datetime(feriado['Data'], format='%d/%m/%Y')
-feriado.set_index(feriado.Data, inplace=True)
-#feriado['Data'] = feriado['Data'].astype(str)
+def feriados(inicio:datetime , fim:datetime): 
 
-inicio = '2019-01-01'
-fim = '2022-12-31'
+    url='https://raw.githubusercontent.com/BDonadelli/Codigos-em-financas/main/data/feriados.csv'
+    feriado = pd.read_csv(url)
+    feriado['Data'] =  pd.to_datetime(feriado['Data'], format='%d/%m/%Y')
+    feriado.set_index(feriado.Data, inplace=True)
+    #feriado['Data'] = feriado['Data'].astype(str)
 
-lista = feriado.Data.loc[inicio:fim].values
+    lista = feriado.Data.loc[inicio:fim].values
 
-print(lista)
+    return(lista)
 
 
-for i in range (datetime.strptime(inicio,"%Y-%m-%d") , #
-                datetime.strptime(fim,"%Y-%m-%d") ):
-    print(i)
+if __name__ == "__main__":
 
+
+    inicio =datetime(2023,10,1)
+    fim = datetime(2024,2,2)
+
+    print(feriados(inicio,fim))
     
