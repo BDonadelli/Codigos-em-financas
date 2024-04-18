@@ -55,7 +55,7 @@ if __name__ == "__main__":
   pagina = planilha.worksheet('Renda Fixa')
 
   from waitinput import input_with_timeout
-  linha = int(input_with_timeout('linha da celula inicial (74)', 5, 74))
+  linha = int(input('linha da celula inicial'))
 
   pagina.update_cell(linha, 1,  today )
   pagina.update('a'+str(linha+1),[td.columns.values.tolist()] + td.values.tolist())
