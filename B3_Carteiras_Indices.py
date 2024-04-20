@@ -1,5 +1,5 @@
 wd = r"/home/yair/GHub/Codigos-em-financas/data/"
-
+import pandas as pd
 import os
 for filename in os.listdir(wd):
     if 'Cart_' in filename:
@@ -74,6 +74,16 @@ for chave in files_dict.keys():
     for filename in os.listdir(wd):
         if chave in filename:
             os.rename(wd+filename,wd+files_dict[chave]+'.csv')
+
+for filename in os.listdir(wd):
+    if "Cart_" in filename:
+        # print(filename)
+        df=pd.DataFrame()
+        df= pd.read_csv(wd+filename,encoding='latin-1', index_col=False, 
+                        sep=';', decimal=',', thousands='.',
+                        skiprows=[0],skipfooter=2,engine='python')
+        df= df.sort_values(by='Part. (%)',ascending =False)
+        df.to_csv(wd+filename,index=None)
 
 
 # driver.get(url[0])
