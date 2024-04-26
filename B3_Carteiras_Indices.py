@@ -79,11 +79,12 @@ for filename in os.listdir(wd):
     if "Cart_" in filename:
         # print(filename)
         df=pd.DataFrame()
-        df= pd.read_csv(wd+filename,encoding='latin-1', index_col=False, 
-                        sep=';', decimal=',', thousands='.',
-                        skiprows=[0],skipfooter=2,engine='python')
+        df= pd.read_csv(wd+filename,
+                        # encoding='latin-1', index_col=False, sep=';', decimal=',', thousands='.',
+                        skiprows=[0],skipfooter=2,engine='python'
+                        )
         df= df.sort_values(by='Part. (%)',ascending =False)
-        df.to_csv(wd+filename,index=None)
+        df.to_csv(wd+filename,index=None)#,sep=';')
 
 
 # driver.get(url[0])
