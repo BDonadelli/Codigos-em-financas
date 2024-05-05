@@ -211,7 +211,9 @@ contabilidade_dict = {
     "Cash Financial": "Caixa Financeiro" 
 }
 
-import json
+if __name__ == '__main__': #isso impede de rodar em imports
 
-with open("yahoo_fin_dict.json", "w") as arquivo:
-    json.dump(contabilidade_dict, arquivo, indent=4)  # indent=4 para formatação
+    import json
+
+    with open("yahoo_fin_dict.json", "w") as arquivo:
+        json.dump(contabilidade_dict, arquivo, indent=4)  # indent=4 para formatação
