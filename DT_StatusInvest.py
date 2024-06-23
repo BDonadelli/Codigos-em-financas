@@ -1,3 +1,12 @@
+'''
+    Esse código baixa planilha de dados do site Status Invest
+            https://statusinvest.com.br/
+    e grava em um planilha (privada) do google docs
+'''
+
+import warnings
+warnings.filterwarnings("ignore")
+
 from  atualiza_settings import *
 
 opcoes_busca = {'Acoes': 'acoes' , 'Fii':'fundos-imobiliarios' , 'Stocks':'acoes/eua'}

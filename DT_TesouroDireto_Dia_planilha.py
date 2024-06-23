@@ -1,5 +1,15 @@
+'''
+    Esse código baixa planilha de dados do TD
+    e grava em um planilha (privada) do google docs
+'''
+
+import warnings
+warnings.filterwarnings("ignore")
+
 from atualiza_settings import *
 
+planilha = gc.open('Investimentos')
+pagina = planilha.worksheet('Renda Fixa')
 
 def dadosTD() :
 
@@ -44,23 +54,18 @@ def dadosTD() :
   return td, meus
 
 if __name__ == "__main__":
-
-  print(" ====== Tesouro Direto  ===== ")
   
   td, meus = dadosTD()
 
   print(" ====== Escreve na planilha")
 
-  planilha = gc.open('Investimentos')
-  pagina = planilha.worksheet('Renda Fixa')
-
-  from waitinput import input_with_timeout
+    # from waitinput import input_with_timeout
   linha = int(input('linha da celula inicial'))
 
   pagina.update_cell(linha, 1,  today )
   pagina.update('a'+str(linha+1),[td.columns.values.tolist()] + td.values.tolist())
 
-  pagina.update_cell(2, 12,  today )
-  pagina.update('l2',[meus.columns.values.tolist()] + meus.values.tolist())
+  pagina.update_cell(2, 13,  today )
+  pagina.update('m2',[meus.columns.values.tolist()] + meus.values.tolist())
 
   print(" ====== Tesouro Direto terminou")

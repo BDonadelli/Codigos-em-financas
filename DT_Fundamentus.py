@@ -1,3 +1,11 @@
+'''
+    Esse código baixa planilha de dados do site Fundamentus
+        https://www.fundamentus.com.br/resultado.php
+    e grava em um planilha (privada) do google docs
+'''
+import warnings
+warnings.filterwarnings("ignore")
+
 from atualiza_settings import *
 
 def dadosFund () :
@@ -14,11 +22,9 @@ def dadosFund () :
     
 if __name__ == "__main__":
 
-    print(" ====== Fundamentus ===== ")
-
     dfs = dadosFund ()
 
-    print(" ====== Escreve na planilha")
+    print(" ====== Escreve na planilha  ====== ")
 
     planilha = gc.open('Investimentos')
     pagina = planilha.worksheet("Fundamentus")
@@ -27,5 +33,5 @@ if __name__ == "__main__":
     pagina.update('a2', [dfs.columns.values.tolist()] + dfs.values.tolist())
     pagina.update('a1',date.today().strftime('%d/%m/%Y'))
 
-    print(" ====== Terminou Fundamentus")
+    print(" ====== Terminou ======")
 

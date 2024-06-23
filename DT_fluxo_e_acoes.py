@@ -99,11 +99,12 @@ print(df.info())
 
 import plotly.graph_objects as go
 
+
 fig = go.Figure(data=[
   go.Bar(x=df.index, y=df.Estrangeiro,name='Estrangeiro'),
   go.Bar(x=df.index, y=df.Institucional,name='Institucional',visible="legendonly"),
   go.Bar(x=df.index, y=df['Pessoa física'],name='PF',visible="legendonly"),
-  go.Scatter(x=indice.index,y=(indice.values-110000)/10,mode='lines',name='Ibov',line=dict(color='red'))
+  go.Scatter(x=indice.index,y=(indice.values-110000)/10,mode='lines',name='"Ibov"',line=dict(color='red'))
 ])
 fig.show()
 

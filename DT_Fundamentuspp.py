@@ -1,3 +1,7 @@
+'''
+    Acrescenta LPA e VPA na planilha do Fundamentus
+'''
+
 from DT_Fundamentus import dadosFund
 import pandas as pd
 import requests
@@ -5,6 +9,9 @@ header = {
   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36",
   "X-Requested-With": "XMLHttpRequest"
 }
+
+import warnings
+warnings.filterwarnings("ignore")
 
 dfs = dadosFund ()
 

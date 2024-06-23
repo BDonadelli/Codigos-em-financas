@@ -1,3 +1,12 @@
+'''
+    Esse código baixa planilha de dados do site Funds Explorer
+          https://www.fundsexplorer.com.br/ranking
+    e grava em um planilha (privada) do google docs
+'''
+
+import warnings
+warnings.filterwarnings("ignore")
+
 from atualiza_settings import *
 
 def dadosFE (setdriver=True) :
@@ -37,7 +46,7 @@ def dadosFE (setdriver=True) :
               linhaDados.append(coluna.text)
          dados.append(linhaDados)
 
-     print(" ====== monta dataframe")
+     print(" ====== monta dataframe ====== ")
 
 
      colunas = ['Fundos','Setor','Preço Atual (R$)','Liquidez Diária (R$)',#
@@ -57,11 +66,9 @@ def dadosFE (setdriver=True) :
 
 if __name__ == "__main__":
 
-     print(" ====== Funds Explorer ===== ")
-
      df = dadosFE()
      
-     print(" ====== Escreve na planilha")
+     print(" ====== Escreve na planilha ====== ")
 
      planilha = gc.open('Investimentos')
      pagina = planilha.worksheet("FundsExp")
@@ -71,5 +78,5 @@ if __name__ == "__main__":
      pagina.update('a2', [df.columns.values.tolist()] + df.values.tolist())
      # pagina.update('a3',dados)
 
-     print(" ====== Funds Explorer terminou")
+     print(" ====== Funds Explorer terminou ====== ")
 
