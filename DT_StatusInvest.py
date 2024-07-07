@@ -1,5 +1,5 @@
 '''
-    Esse código baixa planilha de dados do site Status Invest
+    Esse código baixa planilha de dados fundamentalistas do site Status Invest
             https://statusinvest.com.br/
     e grava em um planilha (privada) do google docs
 '''
