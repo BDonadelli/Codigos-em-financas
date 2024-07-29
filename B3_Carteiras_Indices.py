@@ -44,7 +44,8 @@ url=[
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-50-ibrx-50-composicao-da-carteira.htm',     #IBR50
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm',     #IBOV
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-dividendos-idiv-composicao-da-carteira.htm', #IDIV
-    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-small-cap-smll-composicao-da-carteira.htm'
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-small-cap-smll-composicao-da-carteira.htm',
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-fundos-de-investimentos-imobiliarios-ifix-composicao-da-carteira.htm'
     ]
 
 for sitio in  url :
@@ -68,7 +69,8 @@ files_dict = {'IBOVDia':'Cart_Ibov',
               'SMLLDia':'Cart_Small',
               'IBXXDia':'Cart_IBr100',
               'IBXLDia':'Cart_IBr50',
-              'IDIVDia':'Cart_Idiv'}
+              'IDIVDia':'Cart_Idiv',
+              'IFIXDia':'Cart_Ifix'}
 
 for chave in files_dict.keys(): 
     for filename in os.listdir(wd):
@@ -84,7 +86,7 @@ for filename in os.listdir(wd):
                         )
         df= df.sort_values(by='Part. (%)',ascending =False)
         df.to_csv(wd+filename,index=None)#,sep=';')
-print(df)
+        print(df)
 
 # driver.get(url[0])
 # sleep(3)
