@@ -83,7 +83,7 @@ for filename in os.listdir(wd):
                         )
         df= df.sort_values(by='Part. (%)',ascending =False)
         df.to_csv(wd+filename,index=None)#,sep=';')
-print(df)
+        print(df)
 
 # driver.get(url[0])
 # sleep(3)
