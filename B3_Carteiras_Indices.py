@@ -1,21 +1,15 @@
 wd = r"/home/yair/GHub/Codigos-em-financas/data/"
 import pandas as pd
 import os
-for filename in os.listdir(wd):
-    if 'Cart_' in filename:
-        os.remove(wd+filename)
 
-from selenium import webdriver
+
 from time import sleep
+from selenium import webdriver
 
+# from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
 
-#Chrome
-from selenium.webdriver import ChromeOptions, Chrome
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
@@ -26,7 +20,7 @@ options.add_experimental_option("prefs", {
   "safebrowsing.enabled": True
 })
 
-driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+driver=webdriver.Chrome(options=options)
 
 '''
 Ibov -  85% em ordem decrescente de Índice de Negociabilidade; 
@@ -44,7 +38,8 @@ url=[
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-50-ibrx-50-composicao-da-carteira.htm',     #IBR50
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm',     #IBOV
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-dividendos-idiv-composicao-da-carteira.htm', #IDIV
-    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-small-cap-smll-composicao-da-carteira.htm'
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-small-cap-smll-composicao-da-carteira.htm',
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-fundos-de-investimentos-imobiliarios-ifix-composicao-da-carteira.htm'
     ]
 
 for sitio in  url :
@@ -52,7 +47,6 @@ for sitio in  url :
     if sitio == url[0] :
        driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
        driver.implicitly_wait(3) # seconds
-    # WebDriverWait(driver, 10).until( EC.frame_to_be_available_and_switch_to_it((By.ID, "bvmf_iframe")))
     driver.switch_to.frame("bvmf_iframe")
     driver.find_element(By.CLASS_NAME , 'primary-text').find_element(By.TAG_NAME,"a").click()
     sleep(3)
@@ -63,12 +57,17 @@ driver.close()
     remanejo dos nomes dos arquivos -------------------------------------------
 '''
 
+for filename in os.listdir(wd):
+    if 'Cart_' in filename:
+        os.remove(wd+filename)
+
 files_dict = {'IBOVDia':'Cart_Ibov',
               'IBRADia':'Cart_IBrA',
               'SMLLDia':'Cart_Small',
               'IBXXDia':'Cart_IBr100',
               'IBXLDia':'Cart_IBr50',
-              'IDIVDia':'Cart_Idiv'}
+              'IDIVDia':'Cart_Idiv',
+              'IFIXDia':'Cart_Ifix'}
 
 for chave in files_dict.keys(): 
     for filename in os.listdir(wd):

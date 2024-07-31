@@ -19,11 +19,11 @@ gc = gspread.authorize(credentials)
 from selenium import webdriver
 from time import sleep
 from selenium.webdriver.common.by import By
-from selenium.webdriver import ChromeOptions, Chrome
+# from selenium.webdriver import ChromeOptions, Chrome
 #Chrome
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-opts = ChromeOptions()
+# from selenium.webdriver.chrome.service import Service
+# from webdriver_manager.chrome import ChromeDriverManager
+opts = webdriver.ChromeOptions()
 #esta opcao serve para nao fechar o navegador apos a execucao do script
 opts.add_experimental_option("detach", True)
 opts.add_experimental_option("prefs", {
@@ -32,4 +32,4 @@ opts.add_experimental_option("prefs", {
   "download.directory_upgrade": True,
   "safebrowsing.enabled": True
 })
-servico=Service(ChromeDriverManager().install())
+# servico=Service(ChromeDriverManager().install())

@@ -12,7 +12,7 @@ from atualiza_settings import *
 def dadosFE (setdriver=True) :
 
      if setdriver :
-          driver=webdriver.Chrome(service=servico, options=opts)
+          driver=webdriver.Chrome(options=opts)
         
      driver.get("https://www.fundsexplorer.com.br/ranking")
      sleep(2)
