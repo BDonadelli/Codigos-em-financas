@@ -19,24 +19,25 @@ busca = input('busca por=')
 
 
 URLs = [
-        'https://bmcnews.com.br/categoria/analises/', # BMC Analises
-        'https://bmcnews.com.br/categoria/economia/', # BMC Economia
-        'https://bmcnews.com.br/categoria/mercados/', # BMC Mercados
+        # 'https://bmcnews.com.br/categoria/analises/', # BMC Analises
+        # 'https://bmcnews.com.br/categoria/economia/', # BMC Economia
+        # 'https://bmcnews.com.br/categoria/mercados/', # BMC Mercados
         'https://bmcnews.com.br/ultimas-noticias/', # BMC ultimas noticias
         'https://comoinvestir.thecap.com.br/t/mercado-financeiro',
-        'https://comoinvestir.thecap.com.br/c/noticias',
-        'https://comoinvestir.thecap.com.br/c/renda-fixa',
-        'https://comoinvestir.thecap.com.br/c/renda-variavel',
-        'https://www.infomoney.com.br/',
+        # 'https://comoinvestir.thecap.com.br/c/noticias',
+        # 'https://comoinvestir.thecap.com.br/c/renda-fixa',
+        # 'https://comoinvestir.thecap.com.br/c/renda-variavel',
+        # 'https://www.infomoney.com.br/',
         'https://www.infomoney.com.br/ultimas-noticias/',
         'https://valorinveste.globo.com/ultimas-noticias/',
-        'https://valorinveste.globo.com/objetivo/hora-de-investir/',
+        # 'https://valorinveste.globo.com/objetivo/hora-de-investir/',
         'https://financenews.com.br/category/nao-deixe-de-ler/',
-        'https://financenews.com.br/',
+        # 'https://financenews.com.br/',
         'https://entrealtasebaixas.com.br/', 
         #o proximo fica por ultimo
         f'https://entrealtasebaixas.com.br/radar-diario-de-acoes-{dia_formatado}/'
         ]
+
 
 lista=[]
 for url in URLs :
