@@ -7,11 +7,10 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 symbol = input('ticker=')+'.SA'
-periodo = '3y'
+periodo = str( input('1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max. :'))
 
 tickers = yf.Ticker(symbol)
 df = tickers.history(period=periodo)
-#df = yf.download(ticker+'.SA', period = periodo, auto_ajusted=True)
 df["Date"]=df.index
 
 # feriados
@@ -19,7 +18,7 @@ df["Date"]=df.index
 inicio = df.index[0].strftime("%Y-%m-%d")
 fim = df.index[-1].strftime("%Y-%m-%d")
 
-feriado = pd.read_csv('feriados.csv')
+feriado = pd.read_csv('data/feriados.csv')
 feriado['Data'] =  pd.to_datetime(feriado['Data'], format='%d/%m/%Y')
 feriado.set_index(feriado.Data, inplace=True)
 feriado['Data'] = feriado['Data'].astype(str)

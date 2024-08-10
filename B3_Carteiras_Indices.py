@@ -1,26 +1,27 @@
-wd = r"/home/yair/GHub/Codigos-em-financas/data/"
+# wd = r"/home/yair/GHub/Codigos-em-financas/data/"
 import pandas as pd
 import os
 
 
-from time import sleep
-from selenium import webdriver
+# from time import sleep
+# from selenium import webdriver
 
-# from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-
+# from selenium.webdriver.common.by import By
 
 
-options = webdriver.ChromeOptions()
-options.add_experimental_option("detach", True)
-options.add_experimental_option("prefs", {
-  "download.default_directory": wd,
-  "download.prompt_for_download": False,
-  "download.directory_upgrade": True,
-  "safebrowsing.enabled": True
-})
 
-driver=webdriver.Chrome(options=options)
+# options = webdriver.ChromeOptions()
+# options.add_experimental_option("detach", True)
+# options.add_experimental_option("prefs", {
+#   "download.default_directory": wd,
+#   "download.prompt_for_download": False,
+#   "download.directory_upgrade": True,
+#   "safebrowsing.enabled": True
+# })
+
+
+from DT_atualiza_settings import *
+# driver=webdriver.Chrome(options=options)
 
 '''
 Ibov -  85% em ordem decrescente de Índice de Negociabilidade; 
@@ -33,7 +34,7 @@ IBrA -  99% em ordem decrescente de Índice de Negociabilidade; 95% de presença
 '''
 
 url=[
-    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-amplo-ibra-composicao-da-carteira.htm',
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/in   dices-amplos/indice-brasil-amplo-ibra-composicao-da-carteira.htm',
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-100-ibrx-100-composicao-da-carteira.htm',   #IBR100
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-brasil-50-ibrx-50-composicao-da-carteira.htm',     #IBR50
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm',     #IBOV
@@ -84,18 +85,3 @@ for filename in os.listdir(wd):
         df= df.sort_values(by='Part. (%)',ascending =False)
         df.to_csv(wd+filename,index=None)#,sep=';')
         print(df)
-
-# driver.get(url[0])
-# sleep(3)
-# driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
-# driver.implicitly_wait(3) # seconds
-# driver.switch_to.frame("bvmf_iframe")
-# driver.find_element(By.CLASS_NAME , 'primary-text').find_element(By.TAG_NAME,"a").click()
-
-
-# river.get(url[1])
-# sleep(3)
-# driver.find_element(By.ID,'onetrust-accept-btn-handler').click()
-# driver.implicitly_wait(3) # seconds
-# driver.switch_to.frame("bvmf_iframe")
-# driver.find_element(By.CLASS_NAME , 'primary-text').find_element(By.TAG_NAME,"a").click()

@@ -7,7 +7,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 
-from  atualiza_settings import *
+from  DT_atualiza_settings import *
 
 opcoes_busca = {'Acoes': 'acoes' , 'Fii':'fundos-imobiliarios' , 'Stocks':'acoes/eua'}
 
