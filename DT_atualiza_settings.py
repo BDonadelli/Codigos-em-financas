@@ -24,7 +24,7 @@ gc = gspread.authorize(credentials)
 
 from selenium import webdriver
 from time import sleep
-from selenium.webdriver.common.by import By'
+from selenium.webdriver.common.by import By
 
 opts = webdriver.ChromeOptions()
 opts.add_experimental_option("detach", True)
