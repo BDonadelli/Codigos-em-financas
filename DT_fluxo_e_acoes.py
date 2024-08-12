@@ -1,39 +1,18 @@
-dir_path = r"/home/yair/GHub/Codigos-em-financas/data/"
+
+
+from DT_atualiza_settings import * 
 
 if str(input('download? (s/n)')) == 's' :
   
   ## ja que vai baixar, remove antigos
   import os 
   try: 
-    os.remove(dir_path + "acoes-listadas-b3.csv")
+    os.remove(data_path + "acoes-listadas-b3.csv")
   except: pass
 
   try: 
-    os.remove(dir_path + "fluxo-estrangeiro.csv")
+    os.remove(data_path + "fluxo-estrangeiro.csv")
   except: pass
-
-  from selenium import webdriver
-  from selenium.webdriver.common.by import By
-  from selenium.webdriver import ChromeOptions, Chrome
-
-  #Chrome
-  from selenium.webdriver.chrome.service import Service
-  from webdriver_manager.chrome import ChromeDriverManager
-
-  opts = webdriver.ChromeOptions()
-  #esta opcao serve para nao fechar o navegador apos a execucao do script
-  opts.add_experimental_option("detach", True)
-  opts.add_experimental_option("prefs", {
-    "download.default_directory": dir_path,
-    "download.prompt_for_download": False,
-    "download.directory_upgrade": True,
-    "safebrowsing.enabled": True
-  })
-
-  servico=Service(ChromeDriverManager().install())
-  driver=webdriver.Chrome(service=servico, options=opts)
-
-  from time import sleep
 
   url='https://www.dadosdemercado.com.br/bolsa/investidores-estrangeiros'
   driver.get(url)
