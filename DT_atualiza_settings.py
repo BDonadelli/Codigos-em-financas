@@ -1,10 +1,11 @@
 '''
-  biblioteca e configuração para 
+  biblioteca e configuração para pegar dados
   - iteragir com google sheets
   - web scraping com selenium
 '''
 
-data_path = r"/home/yair/GHub/Codigos-em-financas/data/"
+import os
+data_path = str(os.getcwd()) + r"/data/"
 
 from datetime import date
 today = date.today().strftime('%d/%m/%Y')
