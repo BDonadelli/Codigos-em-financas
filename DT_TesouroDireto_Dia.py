@@ -1,9 +1,7 @@
 
 '''
 versão de DT_TesouroDireto_Dia_planilha_v2.ipynb
-para executar no terminal 
-atualiza 'data/tesouro_direto.json'
-reminder: fazer push
+para executar no terminal, atualiza 'tesouro_direto.json' 
 '''
 
 url = 'https://www.tesourodireto.com.br/json/br/com/b3/tesourodireto/service/api/treasurybondsinfo.json'
