@@ -30,8 +30,8 @@ if __name__ == "__main__":
     pagina = planilha.worksheet("Fundamentus")
 
     pagina.clear()
-    pagina.update('a2', [dfs.columns.values.tolist()] + dfs.values.tolist())
-    pagina.update('a1',date.today().strftime('%d/%m/%Y'))
+    pagina.update(range_name='a2', values=[dfs.columns.values.tolist()] + dfs.values.tolist())
+    pagina.update(range_name='a1',values=[[date.today().strftime('%d/%m/%Y')]])
 
     print(" ====== Terminou ======")
 

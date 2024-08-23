@@ -12,19 +12,15 @@ from  DT_atualiza_settings import *
 opcoes_busca = {'Acoes': 'acoes' , 'Fii':'fundos-imobiliarios' , 'Stocks':'acoes/eua'}
 
 
-def SI(mercado = 'Acoes' , setdriver=True ) :
+def SI(mercado = 'Acoes' , driver = webdriver.Chrome(options=opts) ) :
 
     print(f" ====== SI {mercado} ===== ")
-
-    if setdriver :
-        driver=webdriver.Chrome(service=servico, options=opts)
 
     onde = opcoes_busca[mercado]
     url = f'https://statusinvest.com.br/{onde}/busca-avancada'
 
     driver.get(url)
-    sleep(3)
-
+    
     path='//div/button[contains(@class,"find")]'           ## Busca
     path2='//div/a[contains(@class,"btn-download")]'       ## Download
  
@@ -46,9 +42,10 @@ def SI(mercado = 'Acoes' , setdriver=True ) :
     # renomeia arquivo
     dwnld = 'statusinvest-busca-avancada.csv'
     os.rename(data_path+dwnld , data_path+'SI_'+mercado+'.csv')
-            
-    if setdriver :
-        driver.close()
+
+    driver.quit()
+
+           
 
  
 if __name__ == "__main__":
@@ -57,8 +54,9 @@ if __name__ == "__main__":
 
     planilha = gc.open('Investimentos')
 
-    for mercado in opcoes_busca.keys() : #['Acoes' ,'Fii' , 'Stocks'] :
-        SI(mercado, True)
+    for mercado in ['Stocks']:# opcoes_busca.keys() : #['Acoes' ,'Fii' , 'Stocks'] :
+        # driver=webdriver.Chrome(options=opts)
+        SI(mercado,driver)
 
         print(f" ====== Escrita na planilha {mercado}")
 
@@ -71,8 +69,8 @@ if __name__ == "__main__":
 
         pagina = planilha.worksheet("StatusInv-"+mercado)
         pagina.clear()
-        pagina.update('a2', [df.columns.values.tolist()] + df.values.tolist())
-        pagina.update('a1',today)
+        pagina.update(range_name= 'a2', values= [df.columns.values.tolist()] + df.values.tolist())
+        pagina.update(range_name= 'a1',values= [[today]])
 
 print(" ====== Terminou staus invest")
 

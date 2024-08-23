@@ -3,7 +3,7 @@
   - iteragir com google sheets
   - web scraping com selenium
 '''
-
+import pandas as pd
 import os
 data_path = str(os.getcwd()) + r"/data/"
 
