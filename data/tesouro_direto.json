@@ -1,0 +1,1934 @@
+{
+    "responseStatus": 200,
+    "responseStatusText": "success",
+    "statusInfo": "OK",
+    "response": {
+        "BdTxTp": {
+            "cd": 0
+        },
+        "TrsrBondMkt": {
+            "opngDtTm": "2024-08-23T09:25:00",
+            "clsgDtTm": "2024-08-26T05:00:00",
+            "qtnDtTm": "2024-08-23T09:54:28.113",
+            "stsCd": 1,
+            "sts": "Aberto"
+        },
+        "TrsrBdTradgList": [
+            {
+                "TrsrBd": {
+                    "cd": 171,
+                    "nm": "Tesouro Selic 2024",
+                    "featrs": "Título com rentabilidade diária vinculada à taxa de juros da economia (taxa Selic). Isso significa que se a taxa Selic aumentar a sua rentabilidade aumenta e se a taxa Selic diminuir, sua rentabilidade diminui.\r\n",
+                    "mtrtyDt": "2024-09-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Como não paga juros semestrais, é mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento\r\n",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de curto prazo\r\n",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 0.0355,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 15252.12,
+                    "minRedVal": 152.52,
+                    "isinCd": "BRSTNCLF0008",
+                    "FinIndxs": {
+                        "cd": 17,
+                        "nm": "SELIC"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 4,
+                    "nm": "LFT",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 210100
+            },
+            {
+                "TrsrBd": {
+                    "cd": 164,
+                    "nm": "Tesouro Selic 2025",
+                    "featrs": "Título com rentabilidade diária vinculada à taxa de juros da economia (taxa Selic). Isso significa que se a taxa Selic aumentar a sua rentabilidade aumenta e se a taxa Selic diminuir, sua rentabilidade diminui.",
+                    "mtrtyDt": "2025-03-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Como não paga juros semestrais, é mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de curto prazo",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": -0.0309,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 15254.72,
+                    "minRedVal": 152.55,
+                    "isinCd": "BRSTNCLF1RC4",
+                    "FinIndxs": {
+                        "cd": 17,
+                        "nm": "SELIC"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 4,
+                    "nm": "LFT",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 210100
+            },
+            {
+                "TrsrBd": {
+                    "cd": 177,
+                    "nm": "Tesouro Selic 2026",
+                    "featrs": "Título com rentabilidade diária vinculada à taxa de juros da economia (taxa Selic). Isso significa que se a taxa Selic aumentar a sua rentabilidade aumenta e se a taxa Selic diminuir, sua rentabilidade diminui.\r\n",
+                    "mtrtyDt": "2026-03-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Como não paga juros semestrais, é mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento\r\n",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de médio prazo\r\n",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 0.018,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 15248.1,
+                    "minRedVal": 152.48,
+                    "isinCd": "BRSTNCLF1RE0",
+                    "FinIndxs": {
+                        "cd": 17,
+                        "nm": "SELIC"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 4,
+                    "nm": "LFT",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 210100
+            },
+            {
+                "TrsrBd": {
+                    "cd": 172,
+                    "nm": "Tesouro Selic 2027",
+                    "featrs": "Título com rentabilidade diária vinculada à taxa de juros da economia (taxa Selic). Isso significa que se a taxa Selic aumentar a sua rentabilidade aumenta e se a taxa Selic diminuir, sua rentabilidade diminui.\r\n",
+                    "mtrtyDt": "2027-03-01T00:00:00",
+                    "minInvstmtAmt": 152.32,
+                    "untrInvstmtVal": 15232.85,
+                    "invstmtStbl": "Como não paga juros semestrais, é mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento\r\n",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de curto prazo\r\n",
+                    "anulInvstmtRate": 0.067,
+                    "anulRedRate": 0.077,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 15222.98,
+                    "minRedVal": 152.23,
+                    "isinCd": "BRSTNCLF1RG5",
+                    "FinIndxs": {
+                        "cd": 17,
+                        "nm": "SELIC"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 4,
+                    "nm": "LFT",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 210100
+            },
+            {
+                "TrsrBd": {
+                    "cd": 178,
+                    "nm": "Tesouro Selic 2029",
+                    "featrs": "Título com rentabilidade diária vinculada à taxa de juros da economia (taxa Selic). Isso significa que se a taxa Selic aumentar a sua rentabilidade aumenta e se a taxa Selic diminuir, sua rentabilidade diminui.\r\n",
+                    "mtrtyDt": "2029-03-01T00:00:00",
+                    "minInvstmtAmt": 151.56,
+                    "untrInvstmtVal": 15156.18,
+                    "invstmtStbl": "Como não paga juros semestrais, é mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento\r\n",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de médio prazo\r\n",
+                    "anulInvstmtRate": 0.15,
+                    "anulRedRate": 0.16,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 15143.3,
+                    "minRedVal": 151.43,
+                    "isinCd": "BRSTNCLF1RL5",
+                    "FinIndxs": {
+                        "cd": 17,
+                        "nm": "SELIC"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 4,
+                    "nm": "LFT",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 210100
+            },
+            {
+                "TrsrBd": {
+                    "cd": 161,
+                    "nm": "Tesouro Prefixado 2025",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título).",
+                    "mtrtyDt": "2025-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "É mais interessante para quem pode deixar o seu dinheiro render até o vencimento do investimento, pois não paga juro semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelos seus valores de mercado.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de médio prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 10.8,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 964.03,
+                    "minRedVal": 9.64,
+                    "isinCd": "BRSTNCLTN7N2",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 1,
+                    "nm": "LTN",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 100000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 151,
+                    "nm": "Tesouro Prefixado com Juros Semestrais 2025",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título + último pagamento de  juros semestrais).",
+                    "mtrtyDt": "2025-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "É mais interessante para quem precisa dos seus rendimentos para complementar sua renda, pois paga juros a cada semestre (cupons de juros) Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 10.86,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1010.89,
+                    "minRedVal": 10.11,
+                    "isinCd": "BRSTNCNTF170",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 9,
+                    "nm": "NTN-F",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 950199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 165,
+                    "nm": "Tesouro Prefixado 2026",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título).\r\n",
+                    "mtrtyDt": "2026-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "É mais interessante para quem pode deixar o seu dinheiro render até o vencimento do investimento, pois não paga juro semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelos seus valores de mercado.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de médio prazo.\r\n",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 11.62,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 861.4,
+                    "minRedVal": 8.61,
+                    "isinCd": "BRSTNCLTN7U7",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 1,
+                    "nm": "LTN",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 100000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 204,
+                    "nm": "Tesouro Prefixado 2027",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título).\r\n",
+                    "mtrtyDt": "2027-01-01T00:00:00",
+                    "minInvstmtAmt": 30.96,
+                    "untrInvstmtVal": 774.05,
+                    "invstmtStbl": "É mais interessante para quem pode deixar o seu dinheiro render até o vencimento do investimento, pois não paga juro semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelos seus valores de mercado.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de médio prazo.\r\n",
+                    "anulInvstmtRate": 11.56,
+                    "anulRedRate": 11.68,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 771.76,
+                    "minRedVal": 7.72,
+                    "isinCd": "BRSTNCLTN8C3",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 1,
+                    "nm": "LTN",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 100000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 157,
+                    "nm": "Tesouro Prefixado com Juros Semestrais 2027",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título + último pagamento de juros semestrais).",
+                    "mtrtyDt": "2027-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "É mais interessante para quem precisa dos seus rendimentos para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 11.68,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 982.67,
+                    "minRedVal": 9.83,
+                    "isinCd": "BRSTNCNTF1P8",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 9,
+                    "nm": "NTN-F",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 950199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 174,
+                    "nm": "Tesouro Prefixado 2029",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título).",
+                    "mtrtyDt": "2029-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "É mais interessante para quem pode deixar o seu dinheiro render até o vencimento do investimento, pois não paga juro semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelos seus valores de mercado.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de médio prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 11.81,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 617.02,
+                    "minRedVal": 6.17,
+                    "isinCd": "BRSTNCLTN806",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 1,
+                    "nm": "LTN",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 100000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 162,
+                    "nm": "Tesouro Prefixado com Juros Semestrais 2029",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título + último pagamento de juros semestrais).",
+                    "mtrtyDt": "2029-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "É mais interessante para quem precisa dos seus rendimentos para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 11.79,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 959.34,
+                    "minRedVal": 9.59,
+                    "isinCd": "BRSTNCNTF1Q6",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 9,
+                    "nm": "NTN-F",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 950199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 205,
+                    "nm": "Tesouro Prefixado 2031",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título).\r\n",
+                    "mtrtyDt": "2031-01-01T00:00:00",
+                    "minInvstmtAmt": 34.7,
+                    "untrInvstmtVal": 495.83,
+                    "invstmtStbl": "É mais interessante para quem pode deixar o seu dinheiro render até o vencimento do investimento, pois não paga juro semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelos seus valores de mercado.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de médio prazo.\r\n",
+                    "anulInvstmtRate": 11.76,
+                    "anulRedRate": 11.88,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 492.26,
+                    "minRedVal": 4.92,
+                    "isinCd": "BRSTNCLTN8D1",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 1,
+                    "nm": "LTN",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 100000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 166,
+                    "nm": "Tesouro Prefixado com Juros Semestrais 2031",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título + último pagamento de juros semestrais).\r\n",
+                    "mtrtyDt": "2031-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "É mais interessante para quem precisa dos seus rendimentos para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.\r\n",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.\r\n",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 11.86,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 939.08,
+                    "minRedVal": 9.39,
+                    "isinCd": "BRSTNCNTF204",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 9,
+                    "nm": "NTN-F",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 950199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 176,
+                    "nm": "Tesouro Prefixado com Juros Semestrais 2033",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título + último pagamento de juros semestrais).",
+                    "mtrtyDt": "2033-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "É mais interessante para quem precisa dos seus rendimentos para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 11.79,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 927.25,
+                    "minRedVal": 9.27,
+                    "isinCd": "BRSTNCNTF212",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 9,
+                    "nm": "NTN-F",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 950199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 208,
+                    "nm": "Tesouro Prefixado com Juros Semestrais 2035",
+                    "featrs": "Título prefixado, ou seja, no momento da compra, você já sabe exatamente quanto irá receber no futuro (sempre R$ 1.000 por unidade de título + último pagamento de juros semestrais).",
+                    "mtrtyDt": "2035-01-01T00:00:00",
+                    "minInvstmtAmt": 36.87,
+                    "untrInvstmtVal": 921.98,
+                    "invstmtStbl": "É mais interessante para quem precisa dos seus rendimentos para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 11.69,
+                    "anulRedRate": 11.81,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 915.25,
+                    "minRedVal": 9.15,
+                    "isinCd": "BRSTNCNTF238",
+                    "FinIndxs": {
+                        "cd": 19,
+                        "nm": "PREFIXADO"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 9,
+                    "nm": "NTN-F",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 950199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 170,
+                    "nm": "Tesouro IPCA+ 2026",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).\r\n",
+                    "mtrtyDt": "2026-08-15T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento, pois não paga juros semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.\r\n",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.\r\n",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 6.7,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 3797.57,
+                    "minRedVal": 37.98,
+                    "isinCd": "BRSTNCNTB4W2",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 10,
+                    "nm": "NTNB PRINC",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760198
+            },
+            {
+                "TrsrBd": {
+                    "cd": 156,
+                    "nm": "Tesouro IPCA+ com Juros Semestrais 2026",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).",
+                    "mtrtyDt": "2026-08-15T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem precisa do seu rendimento para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 6.7,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 4269.18,
+                    "minRedVal": 42.69,
+                    "isinCd": "BRSTNCNTB4U6",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 3,
+                    "nm": "NTN-B",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 179,
+                    "nm": "Tesouro IPCA+ 2029",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).\r\n",
+                    "mtrtyDt": "2029-05-15T00:00:00",
+                    "minInvstmtAmt": 32.57,
+                    "untrInvstmtVal": 3257.79,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento, pois não paga juros semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.\r\n",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.\r\n",
+                    "anulInvstmtRate": 6.19,
+                    "anulRedRate": 6.31,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 3239.76,
+                    "minRedVal": 32.4,
+                    "isinCd": "BRSTNCNTB6A3",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 10,
+                    "nm": "NTNB PRINC",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760198
+            },
+            {
+                "TrsrBd": {
+                    "cd": 167,
+                    "nm": "Tesouro IPCA+ com Juros Semestrais 2030",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).\r\n",
+                    "mtrtyDt": "2030-08-15T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem precisa do seu rendimento para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.&nbsp;\r\n",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.\r\n",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 6.14,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 4301.7,
+                    "minRedVal": 43.02,
+                    "isinCd": "BRSTNCNTB3B8",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 3,
+                    "nm": "NTN-B",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 188,
+                    "nm": "Tesouro Educa+ 2026",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2030-12-15T00:00:00",
+                    "minInvstmtAmt": 34.39,
+                    "untrInvstmtVal": 3439.53,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 6.22,
+                    "anulRedRate": 6.34,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 3424.3,
+                    "minRedVal": 34.24,
+                    "isinCd": "BRSTNCNAP0G8",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2026-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 189,
+                    "nm": "Tesouro Educa+ 2027",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2031-12-15T00:00:00",
+                    "minInvstmtAmt": 32.52,
+                    "untrInvstmtVal": 3252.58,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 6.13,
+                    "anulRedRate": 6.25,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 3234.54,
+                    "minRedVal": 32.35,
+                    "isinCd": "BRSTNCNAP0P9",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2027-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 175,
+                    "nm": "Tesouro IPCA+ com Juros Semestrais 2032",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).",
+                    "mtrtyDt": "2032-08-15T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem precisa do seu rendimento para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado. ",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 6.14,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 4294.05,
+                    "minRedVal": 42.94,
+                    "isinCd": "BRSTNCNTB674",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 3,
+                    "nm": "NTN-B",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 190,
+                    "nm": "Tesouro Educa+ 2028",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2032-12-15T00:00:00",
+                    "minInvstmtAmt": 30.77,
+                    "untrInvstmtVal": 3077.29,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 6.06,
+                    "anulRedRate": 6.18,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 3056.78,
+                    "minRedVal": 30.57,
+                    "isinCd": "BRSTNCNAP0H6",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2028-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 191,
+                    "nm": "Tesouro Educa+ 2029",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2033-12-15T00:00:00",
+                    "minInvstmtAmt": 58.23,
+                    "untrInvstmtVal": 2911.63,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 6.01,
+                    "anulRedRate": 6.13,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 2888.96,
+                    "minRedVal": 28.89,
+                    "isinCd": "BRSTNCNAP0I4",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2029-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 192,
+                    "nm": "Tesouro Educa+ 2030",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2034-12-15T00:00:00",
+                    "minInvstmtAmt": 55.02,
+                    "untrInvstmtVal": 2751.1,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.99,
+                    "anulRedRate": 6.11,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 2726.61,
+                    "minRedVal": 27.27,
+                    "isinCd": "BRSTNCNAP0J2",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2030-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 138,
+                    "nm": "Tesouro IPCA+ 2035",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).",
+                    "mtrtyDt": "2035-05-15T00:00:00",
+                    "minInvstmtAmt": 46.49,
+                    "untrInvstmtVal": 2324.91,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é compostos por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento, pois não paga juros semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 5.98,
+                    "anulRedRate": 6.1,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 2296.47,
+                    "minRedVal": 22.96,
+                    "isinCd": "BRSTNCNTB3E2",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 10,
+                    "nm": "NTNB PRINC",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760198
+            },
+            {
+                "TrsrBd": {
+                    "cd": 111,
+                    "nm": "Tesouro IPCA+ com Juros Semestrais 2035",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).",
+                    "mtrtyDt": "2035-05-15T00:00:00",
+                    "minInvstmtAmt": 43.96,
+                    "untrInvstmtVal": 4396.1,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem precisa do seu rendimento para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.&nbsp;",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 6.01,
+                    "anulRedRate": 6.13,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 4355.84,
+                    "minRedVal": 43.56,
+                    "isinCd": "BRSTNCNTB0O7",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 3,
+                    "nm": "NTN-B",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 193,
+                    "nm": "Tesouro Educa+ 2031",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2035-12-15T00:00:00",
+                    "minInvstmtAmt": 51.96,
+                    "untrInvstmtVal": 2598.39,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.98,
+                    "anulRedRate": 6.1,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 2572.35,
+                    "minRedVal": 25.72,
+                    "isinCd": "BRSTNCNAP0K0",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2031-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 194,
+                    "nm": "Tesouro Educa+ 2032",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2036-12-15T00:00:00",
+                    "minInvstmtAmt": 49.05,
+                    "untrInvstmtVal": 2452.53,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.98,
+                    "anulRedRate": 6.1,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 2425.22,
+                    "minRedVal": 24.25,
+                    "isinCd": "BRSTNCNAP0Q7",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2032-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 195,
+                    "nm": "Tesouro Educa+ 2033",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2037-12-15T00:00:00",
+                    "minInvstmtAmt": 46.34,
+                    "untrInvstmtVal": 2317.31,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.97,
+                    "anulRedRate": 6.09,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 2288.93,
+                    "minRedVal": 22.89,
+                    "isinCd": "BRSTNCNAP0R5",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2033-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 196,
+                    "nm": "Tesouro Educa+ 2034",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2038-12-15T00:00:00",
+                    "minInvstmtAmt": 43.8,
+                    "untrInvstmtVal": 2190.26,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.96,
+                    "anulRedRate": 6.08,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 2161.01,
+                    "minRedVal": 21.61,
+                    "isinCd": "BRSTNCNAP0L8",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2034-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 197,
+                    "nm": "Tesouro Educa+ 2035",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2039-12-15T00:00:00",
+                    "minInvstmtAmt": 41.45,
+                    "untrInvstmtVal": 2072.99,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.94,
+                    "anulRedRate": 6.06,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 2043.01,
+                    "minRedVal": 20.43,
+                    "isinCd": "BRSTNCNAP0M6",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2035-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 168,
+                    "nm": "Tesouro IPCA+ com Juros Semestrais 2040",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).\r\n",
+                    "mtrtyDt": "2040-08-15T00:00:00",
+                    "minInvstmtAmt": 43.58,
+                    "untrInvstmtVal": 4358.99,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem precisa do seu rendimento para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.&nbsp;\r\n",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.\r\n",
+                    "anulInvstmtRate": 5.95,
+                    "anulRedRate": 6.07,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 4306.49,
+                    "minRedVal": 43.06,
+                    "isinCd": "BRSTNCNTB3C6",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 3,
+                    "nm": "NTN-B",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 198,
+                    "nm": "Tesouro Educa+ 2036",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2040-12-15T00:00:00",
+                    "minInvstmtAmt": 39.19,
+                    "untrInvstmtVal": 1959.86,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.93,
+                    "anulRedRate": 6.05,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1929.33,
+                    "minRedVal": 19.29,
+                    "isinCd": "BRSTNCNAP0N4",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2036-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 199,
+                    "nm": "Tesouro Educa+ 2037",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2041-12-15T00:00:00",
+                    "minInvstmtAmt": 37.01,
+                    "untrInvstmtVal": 1850.64,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.93,
+                    "anulRedRate": 6.05,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1819.76,
+                    "minRedVal": 18.2,
+                    "isinCd": "BRSTNCNAP0O2",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2037-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 200,
+                    "nm": "Tesouro Educa+ 2038",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2042-12-15T00:00:00",
+                    "minInvstmtAmt": 34.89,
+                    "untrInvstmtVal": 1744.94,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.94,
+                    "anulRedRate": 6.06,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1713.9,
+                    "minRedVal": 17.14,
+                    "isinCd": "BRSTNCNAP0S3",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2038-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 201,
+                    "nm": "Tesouro Educa+ 2039",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2043-12-15T00:00:00",
+                    "minInvstmtAmt": 32.84,
+                    "untrInvstmtVal": 1642.28,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.96,
+                    "anulRedRate": 6.08,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1611.25,
+                    "minRedVal": 16.11,
+                    "isinCd": "BRSTNCNAP0T1",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2039-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 202,
+                    "nm": "Tesouro Educa+ 2040",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2044-12-15T00:00:00",
+                    "minInvstmtAmt": 30.85,
+                    "untrInvstmtVal": 1542.61,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 5.99,
+                    "anulRedRate": 6.11,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1511.76,
+                    "minRedVal": 15.12,
+                    "isinCd": "BRSTNCNAP0U9",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2040-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 160,
+                    "nm": "Tesouro IPCA+ 2045",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).",
+                    "mtrtyDt": "2045-05-15T00:00:00",
+                    "minInvstmtAmt": 38.24,
+                    "untrInvstmtVal": 1274.81,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem pode deixar o dinheiro render até o vencimento do investimento, pois não paga juros semestrais. Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 6.1,
+                    "anulRedRate": 6.22,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1245.15,
+                    "minRedVal": 12.45,
+                    "isinCd": "BRSTNCNTB2U0",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 10,
+                    "nm": "NTNB PRINC",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760198
+            },
+            {
+                "TrsrBd": {
+                    "cd": 93,
+                    "nm": "Tesouro IPCA+ com Juros Semestrais 2045",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).",
+                    "mtrtyDt": "2045-05-15T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem precisa do seu rendimento para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.&nbsp;",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": null,
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 6.18,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 4315.6,
+                    "minRedVal": 43.16,
+                    "isinCd": "BRSTNCNTB0A6",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 3,
+                    "nm": "NTN-B",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 203,
+                    "nm": "Tesouro Educa+ 2041",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.",
+                    "mtrtyDt": "2045-12-15T00:00:00",
+                    "minInvstmtAmt": 43.37,
+                    "untrInvstmtVal": 1445.71,
+                    "invstmtStbl": "Com o Tesouro Educa+, você tem diversas possibilidades para planejar financeiramente o futuro educacional de maneira rápida e fácil.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.",
+                    "anulInvstmtRate": 6.03,
+                    "anulRedRate": 6.15,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1415.22,
+                    "minRedVal": 14.15,
+                    "isinCd": "BRSTNCNAP0V7",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2041-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 207,
+                    "nm": "Tesouro Educa+ 2042",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento. Incluindo a própria data de vencimento.\r\n",
+                    "mtrtyDt": "2046-12-15T00:00:00",
+                    "minInvstmtAmt": 40.69,
+                    "untrInvstmtVal": 1356.48,
+                    "invstmtStbl": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 60 meses antes da data de vencimento.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.06,
+                    "anulRedRate": 6.18,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1326.39,
+                    "minRedVal": 13.26,
+                    "isinCd": "BRSTNCNAP0W5",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2042-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 3,
+                        "nm": "Educa+"
+                    },
+                    "amortQuotQty": 60
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700001
+            },
+            {
+                "TrsrBd": {
+                    "cd": 180,
+                    "nm": "Tesouro Renda+ Aposentadoria Extra 2030",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 240 meses antes da data de vencimento. Incluindo a própria data de vencimento.  \r\n",
+                    "mtrtyDt": "2049-12-15T00:00:00",
+                    "minInvstmtAmt": 37.45,
+                    "untrInvstmtVal": 1872.79,
+                    "invstmtStbl": "O Título vai servir como um complemento da aposentadoria pública para o investidor. Ajudando o mesmo a se aposentar com qualidade.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.01,
+                    "anulRedRate": 6.13,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1844.23,
+                    "minRedVal": 18.44,
+                    "isinCd": "BRSTNCNAP0E3",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2030-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 2,
+                        "nm": "Renda+"
+                    },
+                    "amortQuotQty": 240
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 147,
+                    "nm": "Tesouro IPCA+ com Juros Semestrais 2050",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).",
+                    "mtrtyDt": "2050-08-15T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem precisa do seu rendimento para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.&nbsp;",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.",
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 6.19,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 4238.57,
+                    "minRedVal": 42.39,
+                    "isinCd": "BRSTNCNTB3D4",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 3,
+                    "nm": "NTN-B",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 181,
+                    "nm": "Tesouro Renda+ Aposentadoria Extra 2035",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 240 meses antes da data de vencimento. Incluindo a própria data de vencimento.\r\n",
+                    "mtrtyDt": "2054-12-15T00:00:00",
+                    "minInvstmtAmt": 41.89,
+                    "untrInvstmtVal": 1396.43,
+                    "invstmtStbl": "O Título vai servir como um complemento da aposentadoria pública para o investidor. Ajudando o mesmo a se aposentar com qualidade.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.03,
+                    "anulRedRate": 6.15,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1367.44,
+                    "minRedVal": 13.67,
+                    "isinCd": "BRSTNCNAP096",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2035-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 2,
+                        "nm": "Renda+"
+                    },
+                    "amortQuotQty": 240
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 169,
+                    "nm": "Tesouro IPCA+ com Juros Semestrais 2055",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IPCA).\r\n",
+                    "mtrtyDt": "2055-05-15T00:00:00",
+                    "minInvstmtAmt": 43.84,
+                    "untrInvstmtVal": 4384.94,
+                    "invstmtStbl": "Aumenta o poder de compra do seu dinheiro, pois seu rendimento é composto por uma taxa de juros + a variação da inflação (IPCA). É mais interessante para quem precisa do seu rendimento para complementar sua renda, pois paga juros a cada semestre (cupons de juros). Em caso de resgate antecipado, o Tesouro Nacional garante sua recompra pelo seu valor de mercado.&nbsp;\r\n",
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": "Indicado para aqueles que querem realizar investimentos de longo prazo.\r\n",
+                    "anulInvstmtRate": 6.04,
+                    "anulRedRate": 6.16,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 4314.34,
+                    "minRedVal": 43.14,
+                    "isinCd": "BRSTNCNTB4Q4",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 3,
+                    "nm": "NTN-B",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 760199
+            },
+            {
+                "TrsrBd": {
+                    "cd": 182,
+                    "nm": "Tesouro Renda+ Aposentadoria Extra 2040",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 240 meses antes da data de vencimento. Incluindo a própria data de vencimento.\r\n",
+                    "mtrtyDt": "2059-12-15T00:00:00",
+                    "minInvstmtAmt": 31.1,
+                    "untrInvstmtVal": 1036.96,
+                    "invstmtStbl": "O Título vai servir como um complemento da aposentadoria pública para o investidor. Ajudando o mesmo a se aposentar com qualidade.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.06,
+                    "anulRedRate": 6.18,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 1009.76,
+                    "minRedVal": 10.1,
+                    "isinCd": "BRSTNCNAP0A1",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2040-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 2,
+                        "nm": "Renda+"
+                    },
+                    "amortQuotQty": 240
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 183,
+                    "nm": "Tesouro Renda+ Aposentadoria Extra 2045",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 240 meses antes da data de vencimento. Incluindo a própria data de vencimento.\r\n",
+                    "mtrtyDt": "2064-12-15T00:00:00",
+                    "minInvstmtAmt": 30.71,
+                    "untrInvstmtVal": 767.99,
+                    "invstmtStbl": "O Título vai servir como um complemento da aposentadoria pública para o investidor. Ajudando o mesmo a se aposentar com qualidade.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.09,
+                    "anulRedRate": 6.21,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 743.67,
+                    "minRedVal": 7.44,
+                    "isinCd": "BRSTNCNAP0F0",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2045-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 2,
+                        "nm": "Renda+"
+                    },
+                    "amortQuotQty": 240
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 184,
+                    "nm": "Tesouro Renda+ Aposentadoria Extra 2050",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 240 meses antes da data de vencimento. Incluindo a própria data de vencimento.\r\n",
+                    "mtrtyDt": "2069-12-15T00:00:00",
+                    "minInvstmtAmt": 34.45,
+                    "untrInvstmtVal": 574.28,
+                    "invstmtStbl": "O Título vai servir como um complemento da aposentadoria pública para o investidor. Ajudando o mesmo a se aposentar com qualidade.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.08,
+                    "anulRedRate": 6.2,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 552.97,
+                    "minRedVal": 5.53,
+                    "isinCd": "BRSTNCNAP0D5",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2050-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 2,
+                        "nm": "Renda+"
+                    },
+                    "amortQuotQty": 240
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 185,
+                    "nm": "Tesouro Renda+ Aposentadoria Extra 2055",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 240 meses antes da data de vencimento. Incluindo a própria data de vencimento.\r\n",
+                    "mtrtyDt": "2074-12-15T00:00:00",
+                    "minInvstmtAmt": 34.26,
+                    "untrInvstmtVal": 428.27,
+                    "invstmtStbl": "O Título vai servir como um complemento da aposentadoria pública para o investidor. Ajudando o mesmo a se aposentar com qualidade.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.08,
+                    "anulRedRate": 6.2,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 410.07,
+                    "minRedVal": 4.1,
+                    "isinCd": "BRSTNCNAP0B9",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2055-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 2,
+                        "nm": "Renda+"
+                    },
+                    "amortQuotQty": 240
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 186,
+                    "nm": "Tesouro Renda+ Aposentadoria Extra 2060",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 240 meses antes da data de vencimento. Incluindo a própria data de vencimento.\r\n",
+                    "mtrtyDt": "2079-12-15T00:00:00",
+                    "minInvstmtAmt": 31.8,
+                    "untrInvstmtVal": 318.07,
+                    "invstmtStbl": "O Título vai servir como um complemento da aposentadoria pública para o investidor. Ajudando o mesmo a se aposentar com qualidade.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.09,
+                    "anulRedRate": 6.21,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 302.85,
+                    "minRedVal": 3.03,
+                    "isinCd": "BRSTNCNAP0C7",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2060-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 2,
+                        "nm": "Renda+"
+                    },
+                    "amortQuotQty": 240
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 187,
+                    "nm": "Tesouro Renda+ Aposentadoria Extra 2065",
+                    "featrs": "Titulo com pagamento de rendas mensais a partir da data de conversão que acontece 240 meses antes da data de vencimento. Incluindo a própria data de vencimento.\r\n",
+                    "mtrtyDt": "2084-12-15T00:00:00",
+                    "minInvstmtAmt": 30.82,
+                    "untrInvstmtVal": 237.1,
+                    "invstmtStbl": "O Título vai servir como um complemento da aposentadoria pública para o investidor. Ajudando o mesmo a se aposentar com qualidade.",
+                    "semiAnulIntrstInd": false,
+                    "rcvgIncm": "Todos os perfis.\r\n",
+                    "anulInvstmtRate": 6.09,
+                    "anulRedRate": 6.21,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 224.49,
+                    "minRedVal": 2.24,
+                    "isinCd": "BRSTNCNAP088",
+                    "FinIndxs": {
+                        "cd": 22,
+                        "nm": "IPCA"
+                    },
+                    "wdwlDt": null,
+                    "convDt": "2065-01-15T00:00:00",
+                    "BusSegmt": {
+                        "cd": 2,
+                        "nm": "Renda+"
+                    },
+                    "amortQuotQty": 240
+                },
+                "TrsrBdType": {
+                    "cd": 11,
+                    "nm": "NTN-B1",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 700000
+            },
+            {
+                "TrsrBd": {
+                    "cd": 66,
+                    "nm": "Tesouro IGPM+ com Juros Semestrais 2031",
+                    "featrs": "Título pós-fixado, uma vez que parte do seu rendimento acompanha a variação da taxa de inflação (IGP-M).",
+                    "mtrtyDt": "2031-01-01T00:00:00",
+                    "minInvstmtAmt": 0.0,
+                    "untrInvstmtVal": 0.0,
+                    "invstmtStbl": null,
+                    "semiAnulIntrstInd": true,
+                    "rcvgIncm": null,
+                    "anulInvstmtRate": 0.0,
+                    "anulRedRate": 6.17,
+                    "minRedQty": 0.01,
+                    "untrRedVal": 8176.52,
+                    "minRedVal": 81.77,
+                    "isinCd": "BRSTNCNTC0K4",
+                    "FinIndxs": {
+                        "cd": 1,
+                        "nm": "IGP-M"
+                    },
+                    "wdwlDt": null,
+                    "convDt": null,
+                    "BusSegmt": null,
+                    "amortQuotQty": 0
+                },
+                "TrsrBdType": {
+                    "cd": 2,
+                    "nm": "NTN-C",
+                    "ctdyRate": null,
+                    "grPr": null
+                },
+                "SelicCode": 770100
+            }
+        ],
+        "BizSts": {
+            "cd": null,
+            "dtTm": "2024-08-23 11:11:01.750"
+        }
+    }
+}
