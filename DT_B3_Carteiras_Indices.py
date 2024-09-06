@@ -8,6 +8,7 @@ IBrx100 -   os 100 primeiros ativos em ordem decrescente de Índice de Negociabi
 IBrx50 - os 50 primeiros ativos em ordem decrescente de Índice de Negociabilidade; 
          95% de presença em pregão; e não ser penny stock.
 IBrA -  99% em ordem decrescente de Índice de Negociabilidade; 95% de presença em pregão; e não ser penny stock.            
+B3 BR+ - ações, units e BDRs de empresas brasileiras listadas na B3 No que tange os BDRs, é necessário que a listagem primária do ativo lastro seja feita nas bolsas de valores dos Estados Unidos (EUA).
 '''
 
 import pandas as pd
@@ -21,8 +22,11 @@ url=[
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-ibovespa-ibovespa-composicao-da-carteira.htm',     #IBOV
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-dividendos-idiv-composicao-da-carteira.htm', #IDIV
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-small-cap-smll-composicao-da-carteira.htm',
-    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-fundos-de-investimentos-imobiliarios-ifix-composicao-da-carteira.htm'
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-fundos-de-investimentos-imobiliarios-ifix-composicao-da-carteira.htm',
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/indice-bovespa-b3-br-ibovespa-b3-br-composicao-carteira.htm'
     ]
+
+driver=webdriver.Chrome(options=opts)
 
 for sitio in  url :
     driver.get(sitio)
@@ -44,12 +48,13 @@ for filename in os.listdir(data_path):
         os.remove(data_path+filename)
 
 files_dict = {'IBOVDia':'Cart_Ibov',
-              'IBRADia':'Cart_IBrA',
-              'SMLLDia':'Cart_Small',
-              'IBXXDia':'Cart_IBr100',
-              'IBXLDia':'Cart_IBr50',
-              'IDIVDia':'Cart_Idiv',
-              'IFIXDia':'Cart_Ifix'}
+            'IBRADia':'Cart_IBrA',
+            'SMLLDia':'Cart_Small',
+            'IBXXDia':'Cart_IBr100',
+            'IBXLDia':'Cart_IBr50',
+            'IDIVDia':'Cart_Idiv',
+            'IFIXDia':'Cart_Ifix',
+            'IBBRDia' : 'Cart_IBBR'}
 
 for chave in files_dict.keys(): 
     for filename in os.listdir(data_path):

@@ -12,7 +12,9 @@ from  DT_atualiza_settings import *
 opcoes_busca = {'Acoes': 'acoes' , 'Fii':'fundos-imobiliarios' , 'Stocks':'acoes/eua'}
 
 
-def SI(mercado = 'Acoes' , driver = webdriver.Chrome(options=opts) ) :
+def SI(mercado = 'Acoes' ) :
+
+    driver = webdriver.Chrome(options=opts) 
 
     print(f" ====== SI {mercado} ===== ")
 
@@ -54,9 +56,9 @@ if __name__ == "__main__":
 
     planilha = gc.open('Investimentos')
 
-    for mercado in ['Stocks']:# opcoes_busca.keys() : #['Acoes' ,'Fii' , 'Stocks'] :
-        # driver=webdriver.Chrome(options=opts)
-        SI(mercado,driver)
+    for mercado in opcoes_busca.keys() : #['Acoes' ,'Fii' , 'Stocks'] :
+
+        SI(mercado)
 
         print(f" ====== Escrita na planilha {mercado}")
 
@@ -72,5 +74,6 @@ if __name__ == "__main__":
         pagina.update(range_name= 'a2', values= [df.columns.values.tolist()] + df.values.tolist())
         pagina.update(range_name= 'a1',values= [[today]])
 
-print(" ====== Terminou staus invest")
+        driver.quit()
+        print(" ====== Terminou staus invest")
 
