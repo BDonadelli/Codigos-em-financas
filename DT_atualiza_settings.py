@@ -7,10 +7,11 @@ import pandas as pd
 import os
 data_path = str(os.getcwd()) + r"/data/"
 
+from time import sleep
 from datetime import date
 today = date.today().strftime('%d/%m/%Y')
 
-## - google sheets
+## - google sheets -----------------
 
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -21,10 +22,9 @@ jfile = 'carteira-328314-d38dcc8ee3e4.json'
 credentials = ServiceAccountCredentials.from_json_keyfile_name(jfile, scope)
 gc = gspread.authorize(credentials)
 
-## - selenium
+## - selenium -----------------
 
 from selenium import webdriver
-from time import sleep
 from selenium.webdriver.common.by import By
 
 opts = webdriver.ChromeOptions()

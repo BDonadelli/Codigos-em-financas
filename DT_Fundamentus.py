@@ -5,11 +5,9 @@
 '''
 import warnings
 warnings.filterwarnings("ignore")
-
 from DT_atualiza_settings import *
 
 def dadosFund () :
-
     import requests
     url1 = 'https://www.fundamentus.com.br/resultado.php'
     header = {
@@ -17,21 +15,16 @@ def dadosFund () :
         "X-Requested-With": "XMLHttpRequest"
     }
     r1 = requests.get(url1, headers=header)
-
     return pd.read_html(r1.text, decimal=',', thousands='.')[0]
     
 if __name__ == "__main__":
 
     dfs = dadosFund ()
-
     print(" ====== Escreve na planilha  ====== ")
-
     planilha = gc.open('Investimentos')
     pagina = planilha.worksheet("Fundamentus")
-
     pagina.clear()
     pagina.update(range_name='a2', values=[dfs.columns.values.tolist()] + dfs.values.tolist())
     pagina.update(range_name='a1',values=[[date.today().strftime('%d/%m/%Y')]])
-
     print(" ====== Terminou ======")
 

@@ -70,4 +70,6 @@ for filename in os.listdir(data_path):
                         )
         df= df.sort_values(by='Part. (%)',ascending =False)
         df.to_csv(data_path+filename,index=None)#,sep=';')
+
+        
         print(df)

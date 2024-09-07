@@ -1,7 +1,8 @@
 '''
     Acrescenta LPA e VPA na planilha do Fundamentus
 '''
-
+import warnings
+warnings.filterwarnings("ignore")
 from DT_Fundamentus import dadosFund
 import pandas as pd
 import requests
@@ -10,11 +11,7 @@ header = {
   "X-Requested-With": "XMLHttpRequest"
 }
 
-import warnings
-warnings.filterwarnings("ignore")
-
 dfs = dadosFund ()
-
 
 def LPA_VPA(ticker:str) :
     url=f'https://www.fundamentus.com.br/detalhes.php?papel={ticker}'

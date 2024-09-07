@@ -117,10 +117,10 @@ def dadosInfra (setdriver=False) :
 
 if __name__ == "__main__":
 
-     try: 
-          driver.close()
-     except:
-          pass      
+     # try: 
+     #      driver.close()
+     # except:
+     #      pass      
 
 
      print(" ====== Funds Explorer ===== ")

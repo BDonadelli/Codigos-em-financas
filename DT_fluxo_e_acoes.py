@@ -1,5 +1,4 @@
 
-
 from DT_atualiza_settings import * 
 
 if str(input('download? (s/n)')) == 's' :
@@ -14,6 +13,7 @@ if str(input('download? (s/n)')) == 's' :
     os.remove(data_path + "fluxo-estrangeiro.csv")
   except: pass
 
+  driver=webdriver.Chrome(options=opts)
   url='https://www.dadosdemercado.com.br/bolsa/investidores-estrangeiros'
   driver.get(url)
   sleep(2)

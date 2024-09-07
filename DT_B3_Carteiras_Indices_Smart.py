@@ -14,7 +14,7 @@ import os
 from DT_atualiza_settings import *
 
 url=[
-    # 'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/ibov-smart-low-vol-b3-composicao-da-carteira.htm',
+    'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/ibov-smart-low-vol-b3-composicao-da-carteira.htm',
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/ibov-smart-high-beta-b3-composicao-da-carteira.htm'
 ]
 
@@ -30,7 +30,7 @@ for sitio in  url :
 driver.close()    
 
 '''
-    remanejo dos nomes dos arquivos -------------------------------------------
+    remanejo dos nomes dos arquivos 
 '''
 
 for filename in os.listdir(data_path):

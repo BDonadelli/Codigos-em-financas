@@ -14,8 +14,6 @@ opcoes_busca = {'Acoes': 'acoes' , 'Fii':'fundos-imobiliarios' , 'Stocks':'acoes
 
 def SI(mercado = 'Acoes' ) :
 
-    driver = webdriver.Chrome(options=opts) 
-
     print(f" ====== SI {mercado} ===== ")
 
     onde = opcoes_busca[mercado]
@@ -45,7 +43,6 @@ def SI(mercado = 'Acoes' ) :
     dwnld = 'statusinvest-busca-avancada.csv'
     os.rename(data_path+dwnld , data_path+'SI_'+mercado+'.csv')
 
-    driver.quit()
 
            
 
@@ -57,9 +54,9 @@ if __name__ == "__main__":
     planilha = gc.open('Investimentos')
 
     for mercado in opcoes_busca.keys() : #['Acoes' ,'Fii' , 'Stocks'] :
-
+        driver = webdriver.Chrome(options=opts) 
         SI(mercado)
-
+        driver.quit()
         print(f" ====== Escrita na planilha {mercado}")
 
         df = pd.read_csv(data_path+'SI_'+mercado+'.csv', 
@@ -74,6 +71,6 @@ if __name__ == "__main__":
         pagina.update(range_name= 'a2', values= [df.columns.values.tolist()] + df.values.tolist())
         pagina.update(range_name= 'a1',values= [[today]])
 
-        driver.quit()
+        # driver.quit()
         print(" ====== Terminou staus invest")
 

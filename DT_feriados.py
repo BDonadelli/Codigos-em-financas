@@ -18,8 +18,8 @@ def feriados(inicio:datetime , fim:datetime):
 if __name__ == "__main__":
 
 
-    inicio =datetime(2023,10,1)
-    fim = datetime(2024,2,2)
+    inicio =datetime(2024,9,1)
+    fim = datetime(2024,12,2)
 
     print(feriados(inicio,fim))
     
