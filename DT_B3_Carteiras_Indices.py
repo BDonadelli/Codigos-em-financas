@@ -44,7 +44,7 @@ driver.close()
 '''
 
 for filename in os.listdir(data_path):
-    if 'Cart_' in filename and 'Smart' not in filename:
+    if 'Cart_' in filename and 'Ibov_' not in filename:
         os.remove(data_path+filename)
 
 files_dict = {'IBOVDia':'Cart_Ibov',
