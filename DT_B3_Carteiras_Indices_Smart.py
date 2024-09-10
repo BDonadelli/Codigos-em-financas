@@ -34,7 +34,7 @@ driver.close()
 '''
 
 for filename in os.listdir(data_path):
-    if 'Cart_' in filename:
+    if 'Cart_' in filename and 'Smart'  in filename:
         os.remove(data_path+filename)
 
 
