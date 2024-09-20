@@ -73,3 +73,4 @@ for filename in os.listdir(data_path):
 
         
         print(df)
+driver.quit()

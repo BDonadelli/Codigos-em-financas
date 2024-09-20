@@ -12,7 +12,7 @@ from  DT_atualiza_settings import *
 opcoes_busca = {'Acoes': 'acoes' , 'Fii':'fundos-imobiliarios' , 'Stocks':'acoes/eua'}
 
 
-def SI(mercado = 'Acoes' ) :
+def SI(mercado = 'Acoes' , driver=driver) :
 
     print(f" ====== SI {mercado} ===== ")
 
@@ -42,7 +42,7 @@ def SI(mercado = 'Acoes' ) :
     # renomeia arquivo
     dwnld = 'statusinvest-busca-avancada.csv'
     os.rename(data_path+dwnld , data_path+'SI_'+mercado+'.csv')
-
+    driver.close()
 
            
 
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     for mercado in opcoes_busca.keys() : #['Acoes' ,'Fii' , 'Stocks'] :
         driver = webdriver.Chrome(options=opts) 
-        SI(mercado)
+        SI(mercado,driver)
         driver.quit()
         print(f" ====== Escrita na planilha {mercado}")
 
@@ -71,6 +71,6 @@ if __name__ == "__main__":
         pagina.update(range_name= 'a2', values= [df.columns.values.tolist()] + df.values.tolist())
         pagina.update(range_name= 'a1',values= [[today]])
 
-        # driver.quit()
+        driver.quit()
         print(" ====== Terminou staus invest")
 

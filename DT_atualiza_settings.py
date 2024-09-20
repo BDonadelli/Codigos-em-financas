@@ -36,4 +36,4 @@ opts.add_experimental_option("prefs", {
   "safebrowsing.enabled": True
 })
 
-# driver=webdriver.Chrome(options=opts)
+driver=webdriver.Chrome(options=opts)

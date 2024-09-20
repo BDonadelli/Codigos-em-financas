@@ -18,7 +18,7 @@ url=[
     'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/ibov-smart-high-beta-b3-composicao-da-carteira.htm'
 ]
 
-driver=webdriver.Chrome(options=opts)
+# driver=webdriver.Chrome(options=opts)
 for sitio in  url :
     driver.get(sitio)
     if sitio == url[0] :
