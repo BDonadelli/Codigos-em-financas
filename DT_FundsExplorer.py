@@ -117,12 +117,6 @@ def dadosInfra (setdriver=False) :
 
 if __name__ == "__main__":
 
-     # try: 
-     #      driver.close()
-     # except:
-     #      pass      
-
-
      print(" ====== Funds Explorer ===== ")
 
      df = dadosFE(True)
@@ -163,7 +157,7 @@ if __name__ == "__main__":
      pagina.update(range_name='m1',values= [[cpti11_dy]])
 
      print(" ====== FI-Infra Terminou")
-
+     driver.close()
 
 
 
