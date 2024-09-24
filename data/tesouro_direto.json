@@ -7,11 +7,11 @@
             "cd": 0
         },
         "TrsrBondMkt": {
-            "opngDtTm": "2024-09-23T09:25:00",
-            "clsgDtTm": "2024-09-24T05:00:00",
+            "opngDtTm": "2024-09-24T09:25:00",
+            "clsgDtTm": "2024-09-25T05:00:00",
             "qtnDtTm": "2024-09-23T15:30:05.983",
-            "stsCd": 4,
-            "sts": "Fechado"
+            "stsCd": 3,
+            "sts": "Em manutenção"
         },
         "TrsrBdTradgList": [
             {
@@ -1894,7 +1894,7 @@
         ],
         "BizSts": {
             "cd": null,
-            "dtTm": "2024-09-23 18:14:02.310"
+            "dtTm": "2024-09-24 09:44:01.188"
         }
     }
 }
