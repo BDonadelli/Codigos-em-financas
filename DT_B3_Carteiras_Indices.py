@@ -62,14 +62,14 @@ for chave in files_dict.keys():
             os.rename(data_path+filename,data_path+files_dict[chave]+'.csv')
 
 for filename in os.listdir(data_path):
-    if "Cart_Ibov" in filename:
+    if "Cart" in filename:
         # print(filename)
         df=pd.DataFrame()
         df= pd.read_csv(data_path+filename, encoding='latin-1', index_col=False, sep=';', decimal=',', thousands='.',
                         skiprows=[0],skipfooter=2,engine='python'
                         )
         df= df.sort_values(by='Part. (%)',ascending =False)
-        df.to_csv(data_path+filename,index=None)#,sep=';')
+        df.to_csv(data_path+filename,index=None,sep=';')
 
         
         print(df)

@@ -33,11 +33,6 @@ driver.close()
     remanejo dos nomes dos arquivos 
 '''
 
-# for filename in os.listdir(data_path):
-#     if 'Cart_' in filename and 'Ibov_'  in filename:
-#         os.remove(data_path+filename)
-
-
 files_dict = {'IBLVDia':'Cart_Ibov_LowVol',
               'IBHBDia':'Cart_Ibov_HighBeta'}
 
@@ -46,13 +41,15 @@ for chave in files_dict.keys():
         if chave in filename:
             os.rename(data_path+filename,data_path+files_dict[chave]+'.csv')
 
-# for filename in os.listdir(data_path):
-#     if "Cart_Ibov" in filename:
-#         # print(filename)
-#         df=pd.DataFrame()
-#         df= pd.read_csv(data_path+filename, encoding='latin-1', index_col=False, sep=';', decimal=',', thousands='.',
-#                         skiprows=[0],skipfooter=2,engine='python'
-#                         )
-#         df= df.sort_values(by='Part. (%)',ascending =False)
-#         df.to_csv(data_path+filename,index=None)#,sep=';')
-#         print(df)
+for filename in os.listdir(data_path):
+    if "Cart" in filename or "LowVol" in filename:
+        # print(filename)
+        df=pd.DataFrame()
+        df= pd.read_csv(data_path+filename, encoding='latin-1', index_col=False, sep=';', decimal=',', thousands='.',
+                        skiprows=[0],skipfooter=2,engine='python'
+                        )
+        df= df.sort_values(by='Part. (%)',ascending =False)
+        df.to_csv(data_path+filename,index=None,sep=';')
+        print(df)
+
+driver.quit()
